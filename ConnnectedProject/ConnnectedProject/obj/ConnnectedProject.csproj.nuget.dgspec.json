@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ilias\\Desktop\\Cours\\02-B1Q2\\LaboProg\\Connected-Project\\ConnnectedProject\\ConnnectedProject\\ConnnectedProject.csproj": {}
+    "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\ConnnectedProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ilias\\Desktop\\Cours\\02-B1Q2\\LaboProg\\Connected-Project\\ConnnectedProject\\ConnnectedProject\\ConnnectedProject.csproj": {
+    "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\ConnnectedProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ilias\\Desktop\\Cours\\02-B1Q2\\LaboProg\\Connected-Project\\ConnnectedProject\\ConnnectedProject\\ConnnectedProject.csproj",
+        "projectUniqueName": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\ConnnectedProject.csproj",
         "projectName": "ConnnectedProject",
-        "projectPath": "C:\\Users\\ilias\\Desktop\\Cours\\02-B1Q2\\LaboProg\\Connected-Project\\ConnnectedProject\\ConnnectedProject\\ConnnectedProject.csproj",
-        "packagesPath": "C:\\Users\\ilias\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ilias\\Desktop\\Cours\\02-B1Q2\\LaboProg\\Connected-Project\\ConnnectedProject\\ConnnectedProject\\obj\\",
+        "projectPath": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\ConnnectedProject.csproj",
+        "packagesPath": "C:\\Users\\SessionTravailleÉcol\\.nuget\\packages\\",
+        "outputPath": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ilias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SessionTravailleÉcol\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

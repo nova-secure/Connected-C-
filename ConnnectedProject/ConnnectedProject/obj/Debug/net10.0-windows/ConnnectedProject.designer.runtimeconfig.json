@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\ilias\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\ilias\\.nuget\\packages"
+      "C:\\Users\\SessionTravailleÉcol\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\SessionTravailleÉcol\\.nuget\\packages"
     ],
     "configProperties": {
       "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": false,
