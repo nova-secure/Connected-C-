@@ -20,6 +20,6 @@ namespace ConnnectedProject.Models
 
             // Default Student
             Users.Add(new Student { Id = 3, Nom = "Dupont", Prenom = "Jean", Email = "eleve@test.com", MotDePasse = "1234", Role = "Student", Classe = "A" });
-        }
+        } 
     }
 }
