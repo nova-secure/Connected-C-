@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ConnnectedProject",
+    "\\ConnnectedProject\\ConnnectedProject",
+    "\\ConnnectedProject\\ConnnectedProject\\Controllers",
+    "\\ConnnectedProject\\ConnnectedProject\\Models",
+    "\\ConnnectedProject\\ConnnectedProject\\Views"
   ],
+  "SelectedNode": "\\ConnnectedProject\\ConnnectedProject\\Views\\StudentDashboardForm.cs",
   "PreviewInSolutionExplorer": false
 }

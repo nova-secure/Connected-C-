@@ -1,0 +1,266 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\connnectedproject\\views\\studentdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\studentdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\connnectedproject\\views\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\connnectedproject\\views\\coursecatalogform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\coursecatalogform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\cours 2025-2026\\cours q2\\programmation laboratoire q2\\labo projet 10 mai\\connected-c-\\connnectedproject\\connnectedproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\cours 2025-2026\\cours q2\\programmation laboratoire q2\\labo projet 10 mai\\connected-c-\\connnectedproject\\connnectedproject\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\cours 2025-2026\\cours q2\\programmation laboratoire q2\\labo projet 10 mai\\connected-c-\\connnectedproject\\connnectedproject\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\cours 2025-2026\\cours q2\\programmation laboratoire q2\\labo projet 10 mai\\connected-c-\\connnectedproject\\connnectedproject\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\cours 2025-2026\\cours q2\\programmation laboratoire q2\\labo projet 10 mai\\connected-c-\\connnectedproject\\connnectedproject\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\cours 2025-2026\\cours q2\\programmation laboratoire q2\\labo projet 10 mai\\connected-c-\\connnectedproject\\connnectedproject\\models\\professor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\models\\professor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\cours 2025-2026\\cours q2\\programmation laboratoire q2\\labo projet 10 mai\\connected-c-\\connnectedproject\\connnectedproject\\models\\datastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\models\\datastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\cours 2025-2026\\cours q2\\programmation laboratoire q2\\labo projet 10 mai\\connected-c-\\connnectedproject\\connnectedproject\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\connnectedproject\\views\\reportcardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\reportcardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\cours 2025-2026\\cours q2\\programmation laboratoire q2\\labo projet 10 mai\\connected-c-\\connnectedproject\\connnectedproject\\views\\studentdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\studentdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\cours 2025-2026\\cours q2\\programmation laboratoire q2\\labo projet 10 mai\\connected-c-\\connnectedproject\\connnectedproject\\views\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Program.cs",
+              "RelativeDocumentMoniker": "ConnnectedProject\\Program.cs",
+              "ToolTip": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Program.cs",
+              "RelativeToolTip": "ConnnectedProject\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T12:47:00.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ConnnectedProject\\Models\\User.cs",
+              "ToolTip": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\User.cs",
+              "RelativeToolTip": "ConnnectedProject\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T12:46:52.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StudentDashboardForm.cs",
+              "DocumentMoniker": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\StudentDashboardForm.cs",
+              "RelativeDocumentMoniker": "ConnnectedProject\\Views\\StudentDashboardForm.cs",
+              "ToolTip": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\StudentDashboardForm.cs",
+              "RelativeToolTip": "ConnnectedProject\\Views\\StudentDashboardForm.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAD4vxMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T12:01:35.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentDashboardForm.cs [Conception]",
+              "DocumentMoniker": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\StudentDashboardForm.cs",
+              "RelativeDocumentMoniker": "ConnnectedProject\\Views\\StudentDashboardForm.cs",
+              "ToolTip": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\StudentDashboardForm.cs [Conception]",
+              "RelativeToolTip": "ConnnectedProject\\Views\\StudentDashboardForm.cs [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T12:01:31.683Z",
+              "EditorCaption": " [Conception]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ReportCardForm.cs [Conception]",
+              "DocumentMoniker": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\ReportCardForm.cs",
+              "RelativeDocumentMoniker": "ConnnectedProject\\Views\\ReportCardForm.cs",
+              "ToolTip": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\ReportCardForm.cs [Conception]",
+              "RelativeToolTip": "ConnnectedProject\\Views\\ReportCardForm.cs [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T11:58:35.417Z",
+              "EditorCaption": " [Conception]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CourseCatalogForm.cs [Conception]",
+              "DocumentMoniker": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\CourseCatalogForm.cs",
+              "RelativeDocumentMoniker": "ConnnectedProject\\Views\\CourseCatalogForm.cs",
+              "ToolTip": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\CourseCatalogForm.cs [Conception]",
+              "RelativeToolTip": "ConnnectedProject\\Views\\CourseCatalogForm.cs [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T11:58:21.091Z",
+              "EditorCaption": " [Conception]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "ConnnectedProject\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "ConnnectedProject\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T11:57:24.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "ConnnectedProject\\Models\\Student.cs",
+              "ToolTip": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\Student.cs",
+              "RelativeToolTip": "ConnnectedProject\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T11:52:42.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Professor.cs",
+              "DocumentMoniker": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\Professor.cs",
+              "RelativeDocumentMoniker": "ConnnectedProject\\Models\\Professor.cs",
+              "ToolTip": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\Professor.cs",
+              "RelativeToolTip": "ConnnectedProject\\Models\\Professor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T11:52:41.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "ConnnectedProject\\Models\\Admin.cs",
+              "ToolTip": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\Admin.cs",
+              "RelativeToolTip": "ConnnectedProject\\Models\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T11:52:37.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "ConnnectedProject\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "ConnnectedProject\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T17:29:56.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DataStore.cs",
+              "DocumentMoniker": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\DataStore.cs",
+              "RelativeDocumentMoniker": "ConnnectedProject\\Models\\DataStore.cs",
+              "ToolTip": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\DataStore.cs",
+              "RelativeToolTip": "ConnnectedProject\\Models\\DataStore.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T17:28:37.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\LoginForm.cs",
+              "RelativeDocumentMoniker": "ConnnectedProject\\Views\\LoginForm.cs",
+              "ToolTip": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\LoginForm.cs",
+              "RelativeToolTip": "ConnnectedProject\\Views\\LoginForm.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAIAywBsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T17:26:33.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginForm.cs [Conception]",
+              "DocumentMoniker": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\LoginForm.cs",
+              "RelativeDocumentMoniker": "ConnnectedProject\\Views\\LoginForm.cs",
+              "ToolTip": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\LoginForm.cs [Conception]",
+              "RelativeToolTip": "ConnnectedProject\\Views\\LoginForm.cs [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T17:26:17.84Z",
+              "EditorCaption": " [Conception]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+C:\Users\ilias\Desktop\Cours\02-B1Q2\LaboProg\Connected-Project\ConnnectedProject\ConnnectedProject\obj\Debug\net10.0-windows\ConnnectedProject.Views.LoginForm.resources
+C:\Users\ilias\Desktop\Cours\02-B1Q2\LaboProg\Connected-Project\ConnnectedProject\ConnnectedProject\obj\Debug\net10.0-windows\ConnnectedProject.csproj.GenerateResource.cache
+C:\Users\ilias\Desktop\Cours\02-B1Q2\LaboProg\Connected-Project\ConnnectedProject\ConnnectedProject\obj\Debug\net10.0-windows\ConnnectedProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ilias\Desktop\Cours\02-B1Q2\LaboProg\Connected-Project\ConnnectedProject\ConnnectedProject\obj\Debug\net10.0-windows\ConnnectedProject.AssemblyInfoInputs.cache
+C:\Users\ilias\Desktop\Cours\02-B1Q2\LaboProg\Connected-Project\ConnnectedProject\ConnnectedProject\obj\Debug\net10.0-windows\ConnnectedProject.AssemblyInfo.cs
+C:\Users\ilias\Desktop\Cours\02-B1Q2\LaboProg\Connected-Project\ConnnectedProject\ConnnectedProject\obj\Debug\net10.0-windows\ConnnectedProject.csproj.CoreCompileInputs.cache
+C:\Users\ilias\Desktop\Cours\02-B1Q2\LaboProg\Connected-Project\ConnnectedProject\ConnnectedProject\bin\Debug\net10.0-windows\ConnnectedProject.exe
+C:\Users\ilias\Desktop\Cours\02-B1Q2\LaboProg\Connected-Project\ConnnectedProject\ConnnectedProject\bin\Debug\net10.0-windows\ConnnectedProject.deps.json
+C:\Users\ilias\Desktop\Cours\02-B1Q2\LaboProg\Connected-Project\ConnnectedProject\ConnnectedProject\bin\Debug\net10.0-windows\ConnnectedProject.runtimeconfig.json
+C:\Users\ilias\Desktop\Cours\02-B1Q2\LaboProg\Connected-Project\ConnnectedProject\ConnnectedProject\bin\Debug\net10.0-windows\ConnnectedProject.dll
+C:\Users\ilias\Desktop\Cours\02-B1Q2\LaboProg\Connected-Project\ConnnectedProject\ConnnectedProject\bin\Debug\net10.0-windows\ConnnectedProject.pdb
+C:\Users\ilias\Desktop\Cours\02-B1Q2\LaboProg\Connected-Project\ConnnectedProject\ConnnectedProject\obj\Debug\net10.0-windows\ConnnectedProject.dll
+C:\Users\ilias\Desktop\Cours\02-B1Q2\LaboProg\Connected-Project\ConnnectedProject\ConnnectedProject\obj\Debug\net10.0-windows\refint\ConnnectedProject.dll
+C:\Users\ilias\Desktop\Cours\02-B1Q2\LaboProg\Connected-Project\ConnnectedProject\ConnnectedProject\obj\Debug\net10.0-windows\ConnnectedProject.pdb
+C:\Users\ilias\Desktop\Cours\02-B1Q2\LaboProg\Connected-Project\ConnnectedProject\ConnnectedProject\obj\Debug\net10.0-windows\ConnnectedProject.genruntimeconfig.cache
+C:\Users\ilias\Desktop\Cours\02-B1Q2\LaboProg\Connected-Project\ConnnectedProject\ConnnectedProject\obj\Debug\net10.0-windows\ref\ConnnectedProject.dll
