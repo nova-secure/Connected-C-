@@ -6,7 +6,7 @@ namespace ConnnectedProject.Models
 {
     internal class User
     {
-        public int Id { get; set;}
+        public int Id { get; set;} = Guid.NewGuid().GetHashCode();
         public string Nom { get; set; }
         public string Prenom { get; set; }
         public string Email { get; set; }

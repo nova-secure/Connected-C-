@@ -13,13 +13,13 @@ namespace ConnnectedProject.Models
         public static void DataInitialize()
         {
             // Default Admin
-            Users.Add(new Admin { Id = 1, Nom = "Boss", Prenom = "Le", Email = "admin@test.com", MotDePasse = "1234", Role = "Admin" });
+            Users.Add(new Admin { Nom = "Boss", Prenom = "Le", Email = "admin@test.com", MotDePasse = "1234" });
 
             // Default Teacher
-            Users.Add(new Professor { Id = 2, Nom = "Einstein", Prenom = "Albert", Email = "prof@test.com", MotDePasse = "1234", Role = "Professor" });
+            Users.Add(new Professor { Nom = "Einstein", Prenom = "Albert", Email = "prof@test.com", MotDePasse = "1234" });
 
             // Default Student
-            Users.Add(new Student { Id = 3, Nom = "Dupont", Prenom = "Jean", Email = "eleve@test.com", MotDePasse = "1234", Role = "Student", Classe = "A" });
+            Users.Add(new Student { Nom = "Dupont", Prenom = "Jean", Email = "eleve@test.com", MotDePasse = "1234"});
         } 
     }
 }
