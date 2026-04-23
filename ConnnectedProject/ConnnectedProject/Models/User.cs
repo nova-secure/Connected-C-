@@ -13,6 +13,11 @@ namespace ConnnectedProject.Models
         public string MotDePasse { get; set; }
         public string Role { get; set; }
 
-
+    public User(string nom, string prenom, string email, string motDePasse)
+    {
+        this.Prenom = prenom;
+        this.Email = email;
+        this.MotDePasse = motDePasse;
+    }
     }
 }

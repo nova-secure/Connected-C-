@@ -1,26 +1,26 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
-    "net10.0-windows7.0": {}
+    "net10.0-windows": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net10.0-windows7.0": []
+    "net10.0-windows": []
   },
   "packageFolders": {
-    "C:\\Users\\SessionTravailleÉcol\\.nuget\\packages\\": {}
+    "C:\\Users\\zouba\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\ConnnectedProject.csproj",
+      "projectUniqueName": "C:\\Users\\zouba\\OneDrive\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\ConnnectedProject.csproj",
       "projectName": "ConnnectedProject",
-      "projectPath": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\ConnnectedProject.csproj",
-      "packagesPath": "C:\\Users\\SessionTravailleÉcol\\.nuget\\packages\\",
-      "outputPath": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\obj\\",
+      "projectPath": "C:\\Users\\zouba\\OneDrive\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\ConnnectedProject.csproj",
+      "packagesPath": "C:\\Users\\zouba\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\zouba\\OneDrive\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\SessionTravailleÉcol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\zouba\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -31,7 +31,8 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net10.0-windows7.0": {
+        "net10.0-windows": {
+          "framework": "net10.0-windows7.0",
           "targetAlias": "net10.0-windows",
           "projectReferences": {}
         }
@@ -46,10 +47,11 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.200"
+      "SdkAnalysisLevel": "10.0.300"
     },
     "frameworks": {
-      "net10.0-windows7.0": {
+      "net10.0-windows": {
+        "framework": "net10.0-windows7.0",
         "targetAlias": "net10.0-windows",
         "imports": [
           "net461",
@@ -70,7 +72,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300-preview.0.26177.108/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
