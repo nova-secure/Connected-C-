@@ -70,7 +70,7 @@ namespace ConnnectedProject.Views
 
         private void LoadCourses()
         {
-            var courses = DataStore.Courses
+            var Courses = DataStore.courses
                 .Where(c => c.IdProfesseur == _professor.Id)
                 .Select(c => new
                 {
@@ -81,7 +81,7 @@ namespace ConnnectedProject.Views
                 })
                 .ToList();
 
-            dgvCourses.DataSource = courses;
+            dgvCourses.DataSource = Courses;
             dgvCourses.Columns[0].HeaderText = "ID";
             dgvCourses.Columns[1].HeaderText = "Titre";
             dgvCourses.Columns[2].HeaderText = "Description";
@@ -99,7 +99,7 @@ namespace ConnnectedProject.Views
 
         private void BtnGradeStudent_Click(object sender, EventArgs e)
         {
-            if (!DataStore.Courses.Any(c => c.IdProfesseur == _professor.Id))
+            if (!DataStore.courses.Any(c => c.IdProfesseur == _professor.Id))
             {
                 MessageBox.Show("Vous devez d'abord créer un cours avant de noter un étudiant.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;

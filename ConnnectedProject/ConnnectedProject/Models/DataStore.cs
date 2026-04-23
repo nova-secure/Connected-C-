@@ -6,9 +6,14 @@ using System.Text;
 
 namespace ConnnectedProject.Models
 {
-    internal  class DataStore
+    public  class DataStore
     {
-        public  List<User> Users = new List<User>();
+
+        public static List<User> Users = new List<User>();
+        public static List<Courses> courses = new List<Courses>();
+        public static List<Grade> Grades = new List<Grade>();
+        public static int NextCourseId = 1;
+        public static int NextGradeId = 1;
 
         public  void DataInitialize()
         {

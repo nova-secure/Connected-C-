@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ConnnectedProject.Models
 {
-    internal class Course
+public class Courses
     {
             public int Id { get; set; }
             public string Titre { get; set; }

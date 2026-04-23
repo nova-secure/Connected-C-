@@ -1,26 +1,31 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
-    "net10.0-windows7.0": {}
+    "net10.0-windows": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net10.0-windows7.0": []
+    "net10.0-windows": []
   },
   "packageFolders": {
-    "C:\\Users\\ilias\\.nuget\\packages\\": {}
+    "C:\\Users\\MyPc\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\ConnnectedProject.csproj",
+      "projectUniqueName": "C:\\Users\\MyPc\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\ConnnectedProject.csproj",
       "projectName": "ConnnectedProject",
-      "projectPath": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\ConnnectedProject.csproj",
-      "packagesPath": "C:\\Users\\ilias\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\obj\\",
+      "projectPath": "C:\\Users\\MyPc\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\ConnnectedProject.csproj",
+      "packagesPath": "C:\\Users\\MyPc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MyPc\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\ilias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\MyPc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -31,7 +36,8 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net10.0-windows7.0": {
+        "net10.0-windows": {
+          "framework": "net10.0-windows7.0",
           "targetAlias": "net10.0-windows",
           "projectReferences": {}
         }
@@ -46,10 +52,11 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.200"
+      "SdkAnalysisLevel": "11.0.100"
     },
     "frameworks": {
-      "net10.0-windows7.0": {
+      "net10.0-windows": {
+        "framework": "net10.0-windows7.0",
         "targetAlias": "net10.0-windows",
         "imports": [
           "net461",
@@ -70,7 +77,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\11.0.100-preview.3.26207.106/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

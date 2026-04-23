@@ -26,7 +26,7 @@ namespace ConnnectedProject.Views
             }
 
             cmbCourses.Items.Clear();
-            foreach (var course in DataStore.Courses.Where(c => c.IdProfesseur == _professor.Id))
+            foreach (var course in DataStore.courses.Where(c => c.IdProfesseur == _professor.Id))
             {
                 cmbCourses.Items.Add(new ComboBoxItem(course.Id, $"{course.Titre} (ID {course.Id})"));
             }

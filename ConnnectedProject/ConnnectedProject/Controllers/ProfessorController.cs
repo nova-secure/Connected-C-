@@ -6,12 +6,12 @@ namespace ConnnectedProject.Controllers
 {
     internal class ProfessorController
     {
-        public Course AddCourse(int idProfesseur, string titre, string description, bool estPublie = false)
+        public Courses AddCourse(int idProfesseur, string titre, string description, bool estPublie = false)
         {
             if (string.IsNullOrWhiteSpace(titre))
                 return null;
 
-            var course = new Course // var ici vaut Course, le compilateur peut le d�duire � partir de l'initialisation je me fou de hahaha
+            var course = new Courses // var ici vaut Course, le compilateur peut le d�duire � partir de l'initialisation je me fou de hahaha
             {
                 Id = DataStore.NextCourseId++,
                 Titre = titre.Trim(),
@@ -20,7 +20,7 @@ namespace ConnnectedProject.Controllers
                 EstPublie = estPublie
             };
 
-            DataStore.Courses.Add(course);
+            DataStore.courses.Add(course);
             return course;
         }
 
@@ -30,7 +30,7 @@ namespace ConnnectedProject.Controllers
                 return null;
 
             var student = DataStore.Users.OfType<Student>().FirstOrDefault(s => s.Id == idEtudiant); //On v�rifie que l'�tudiant existe et est bien un �tudiant
-            var course = DataStore.Courses.FirstOrDefault(c => c.Id == idCours); // pareil pour le cours
+            var course = DataStore.courses.FirstOrDefault(c => c.Id == idCours); // pareil pour le cours
 
             if (student == null || course == null)
                 return null;
@@ -45,6 +45,12 @@ namespace ConnnectedProject.Controllers
 
             DataStore.Grades.Add(grade);
             return grade;
+        }
+
+        public bool IsPublished()
+        {
+            // pour rendre visible le cour au etudiant
+            return false;
         }
     }
 }
