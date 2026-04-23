@@ -13,7 +13,7 @@ namespace ConnnectedProject.Models
         public static void DataInitialize()
         {
             // Default Admin
-            Users.Add(new Admin { Nom = "Boss", Prenom = "Le", Email = "admin@test.com", MotDePasse = "1234" });
+            Users.Add(new Admin("Boss", "Le", "admin@test.com", "1234"));
 
             // Default Teacher
             Users.Add(new Professor { Nom = "Einstein", Prenom = "Albert", Email = "prof@test.com", MotDePasse = "1234" });

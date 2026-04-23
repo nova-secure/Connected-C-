@@ -11,10 +11,10 @@ namespace ConnnectedProject.Models
         public string Prenom { get; set; }
         public string Email { get; set; }
         public string MotDePasse { get; set; }
-        public string Role { get; set; }
 
     public User(string nom, string prenom, string email, string motDePasse)
     {
+        this.Nom = nom;
         this.Prenom = prenom;
         this.Email = email;
         this.MotDePasse = motDePasse;
