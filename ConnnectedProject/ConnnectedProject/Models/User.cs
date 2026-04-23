@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ConnnectedProject.Models
 {
-    internal class User
+    public  class User
     {
         public int Id { get; set;} = Guid.NewGuid().GetHashCode();
         public string Nom { get; set; }
@@ -12,7 +12,6 @@ namespace ConnnectedProject.Models
         public string Email { get; set; }
         public string MotDePasse { get; set; }
         public string Role { get; set; }
-
 
     }
 }

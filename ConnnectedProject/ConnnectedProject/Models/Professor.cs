@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ConnnectedProject.Models
 {
-    internal class Professor : User
+    public  class Professor : User
     {
     }
 }

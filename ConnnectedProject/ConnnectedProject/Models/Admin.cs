@@ -12,6 +12,4 @@ namespace ConnnectedProject.Models
              this.Role = Role.Admin.ToString();
     }
     }
-
-
 }

@@ -8,19 +8,19 @@
     "net10.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\SessionTravailleÉcol\\.nuget\\packages\\": {}
+    "C:\\Users\\ilias\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\ConnnectedProject.csproj",
+      "projectUniqueName": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\ConnnectedProject.csproj",
       "projectName": "ConnnectedProject",
-      "projectPath": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\ConnnectedProject.csproj",
-      "packagesPath": "C:\\Users\\SessionTravailleÉcol\\.nuget\\packages\\",
-      "outputPath": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\obj\\",
+      "projectPath": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\ConnnectedProject.csproj",
+      "packagesPath": "C:\\Users\\ilias\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\SessionTravailleÉcol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ilias\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -1,53 +1,53 @@
-//using ConnnectedProject.Models;
-//using System;
-//using System.Linq;
+// //using ConnnectedProject.Models;
+// //using System;
+// //using System.Linq;
 
-//namespace ConnnectedProject.Controllers
-//{
-//    internal class ProfessorController
-//    {
-//        public Course AddCourse(int idProfesseur, string titre, string description, bool estPublie = false)
-//        {
-//            if (string.IsNullOrWhiteSpace(titre))
-//                return null;
+// //namespace ConnnectedProject.Controllers
+// //{
+// //    internal class ProfessorController
+// //    {
+// //        public Course AddCourse(int idProfesseur, string titre, string description, bool estPublie = false)
+// //        {
+// //            if (string.IsNullOrWhiteSpace(titre))
+// //                return null;
 
-//            var course = new Course // var ici vaut Course, le compilateur peut le déduire à partir de l'initialisation je me fou de hahaha
-//            {
-//                Id = DataStore.NextCourseId++,
-//                Titre = titre.Trim(),
-//                Description = description?.Trim() ?? string.Empty,
-//                IdProfesseur = idProfesseur,
-//                EstPublie = estPublie
-//            };
+// //            var course = new Course // var ici vaut Course, le compilateur peut le dï¿½duire ï¿½ partir de l'initialisation je me fou de hahaha
+// //            {
+// //                Id = DataStore.NextCourseId++,
+// //                Titre = titre.Trim(),
+// //                Description = description?.Trim() ?? string.Empty,
+// //                IdProfesseur = idProfesseur,
+// //                EstPublie = estPublie
+// //            };
 
-//            DataStore.Courses.Add(course);
-//            return course;
-//        }
+// //            DataStore.Courses.Add(course);
+// //            return course;
+// //        }
 
-//        public Grade GiveGrade(int idEtudiant, int idCours, double note)
-//        {
-//            if (note < 0 || note > 20)
-//                return null;
+// //        public Grade GiveGrade(int idEtudiant, int idCours, double note)
+// //        {
+// //            if (note < 0 || note > 20)
+// //                return null;
 
-//            var student = DataStore.Users.OfType<Student>().FirstOrDefault(s => s.Id == idEtudiant); //On vérifie que l'étudiant existe et est bien un étudiant
-//            var course = DataStore.Courses.FirstOrDefault(c => c.Id == idCours); // pareil pour le cours
+// //            var student = DataStore.Users.OfType<Student>().FirstOrDefault(s => s.Id == idEtudiant); //On vï¿½rifie que l'ï¿½tudiant existe et est bien un ï¿½tudiant
+// //            var course = DataStore.Courses.FirstOrDefault(c => c.Id == idCours); // pareil pour le cours
 
-//            if (student == null || course == null)
-//                return null;
+// //            if (student == null || course == null)
+// //                return null;
 
-//            var grade = new Grade
-//            {
-//                Id = DataStore.NextGradeId++,
-//                IdEtudiant = idEtudiant,
-//                IdCours = idCours,
-//                Note = note
-//            };
+// //            var grade = new Grade
+// //            {
+// //                Id = DataStore.NextGradeId++,
+// //                IdEtudiant = idEtudiant,
+// //                IdCours = idCours,
+// //                Note = note
+// //            };
 
-//            DataStore.Grades.Add(grade);
-//            return grade;
-//        }
-//    }
-//}
+// //            DataStore.Grades.Add(grade);
+// //            return grade;
+// //        }
+// //    }
+// //}
 
 
 using ConnnectedProject.Models;
@@ -63,7 +63,7 @@ namespace ConnnectedProject.Controllers
             if (string.IsNullOrWhiteSpace(titre))
                 return null;
 
-            var course = new Course // var ici vaut Course, le compilateur peut le déduire à partir de l'initialisation je me fou de hahaha
+            var course = new Course // var ici vaut Course, le compilateur peut le dï¿½duire ï¿½ partir de l'initialisation je me fou de hahaha
             {
                 Id = DataStore.NextCourseId++,
                 Titre = titre.Trim(),
@@ -81,7 +81,7 @@ namespace ConnnectedProject.Controllers
             if (note < 0 || note > 20)
                 return null;
 
-            var student = DataStore.Users.OfType<Student>().FirstOrDefault(s => s.Id == idEtudiant); //On vérifie que l'étudiant existe et est bien un étudiant
+            var student = DataStore.Users.OfType<Student>().FirstOrDefault(s => s.Id == idEtudiant); //On vï¿½rifie que l'ï¿½tudiant existe et est bien un ï¿½tudiant
             var course = DataStore.Courses.FirstOrDefault(c => c.Id == idCours); // pareil pour le cours
 
             if (student == null || course == null)
