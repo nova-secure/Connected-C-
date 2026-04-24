@@ -47,11 +47,7 @@ namespace ConnnectedProject.Controllers
             return grade;
         }
 
-        public bool IsPublished()
-        {
-            // pour rendre visible le cour au etudiant
-            return false;
-        }
+       
     }
 }
 
