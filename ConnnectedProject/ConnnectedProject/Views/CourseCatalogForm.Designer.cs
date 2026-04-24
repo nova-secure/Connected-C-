@@ -58,10 +58,9 @@
             labelCours.AutoSize = true;
             labelCours.Location = new Point(339, 125);
             labelCours.Name = "labelCours";
-            labelCours.Size = new Size(42, 20);
+            labelCours.Size = new Size(0, 20);
             labelCours.TabIndex = 3;
             labelCours.Tag = "";
-            labelCours.Text = "zefef";
             labelCours.Click += labelCours_Click;
             // 
             // CourseCatalogForm

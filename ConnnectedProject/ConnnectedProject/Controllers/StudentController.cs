@@ -1,4 +1,4 @@
-/*
+
 using ConnnectedProject.Models;
 using System;
 using System.Collections.Generic;
@@ -33,4 +33,3 @@ namespace ConnnectedProject.Controllers
     }
 
 }
-*/

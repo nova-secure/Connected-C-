@@ -19,5 +19,19 @@ namespace ConnnectedProject.Views
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            CourseCatalogForm Connected = new CourseCatalogForm();
+            this.Hide();
+            Connected.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            LoginForm checkPoints = new LoginForm();
+            this.Hide();
+            checkPoints.ShowDialog();
+        }
     }
 }
