@@ -8,7 +8,7 @@ namespace ConnnectedProject.Views
 {
     public partial class GradingForm : Form
     {
-        private readonly Professor _professor;
+        private readonly Professor _professor    ;
 
         public GradingForm(Professor professor)
         {
