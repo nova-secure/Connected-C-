@@ -10,7 +10,7 @@ namespace ConnnectedProject.Models
     {
 
         public static List<User> Users = new List<User>();
-        public static List<Courses> courses = new List<Courses>();
+        public static List<Courses> Courses = new List<Courses>();
         public static List<Grade> Grades = new List<Grade>();
         public static int NextCourseId = 1;
         public static int NextGradeId = 1;
@@ -21,10 +21,10 @@ namespace ConnnectedProject.Models
             Users.Add(new Admin("Boss", "Le", "admin@test.com", "1234"));
 
             // Default Teacher
-            Users.Add(new Professor { Nom = "Einstein", Prenom = "Albert", Email = "prof@test.com", MotDePasse = "1234" });
+            Users.Add(new Professor("Einstein", "Albert", "prof@test.com", "1234"));
 
             // Default Student
-            Users.Add(new Student { Nom = "Dupont", Prenom = "Jean", Email = "eleve@test.com", MotDePasse = "1234"});
+            Users.Add(new Student("Dupont", "Jean", "eleve@test.com", "1234") { Classe = "A" });
 
 
         } 
