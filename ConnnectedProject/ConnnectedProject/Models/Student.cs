@@ -7,5 +7,6 @@ namespace ConnnectedProject.Models
     internal class Student : User
     {
         public string Classe { get; set; }
+
     }
 }

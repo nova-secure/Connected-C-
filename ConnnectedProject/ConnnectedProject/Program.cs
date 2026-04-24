@@ -13,7 +13,8 @@ namespace ConnnectedProject
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            DataStore.DataInitialize();
+            DataStore dataStore = new DataStore();
+            dataStore.DataInitialize();
             Application.Run(new LoginForm());
         }
     }

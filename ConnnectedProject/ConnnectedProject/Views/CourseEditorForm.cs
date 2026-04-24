@@ -7,7 +7,7 @@ namespace ConnnectedProject.Views
 {
     public partial class CourseEditorForm : Form
     {
-        private readonly Professor _professor;
+        private readonly Professor _professor ;
         
 
         public CourseEditorForm(Professor professor)
@@ -16,7 +16,7 @@ namespace ConnnectedProject.Views
             InitializeComponent();
         }
 
-        private void BtnSave_Click(object sender, EventArgs e)
+        public void BtnSave_Click(object sender, EventArgs e)
         {
             var titre = txtTitre.Text.Trim();
             var description = txtDescription.Text.Trim();
