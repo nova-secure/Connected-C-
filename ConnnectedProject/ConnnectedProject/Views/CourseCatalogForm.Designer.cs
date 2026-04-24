@@ -28,12 +28,61 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "CourseCatalogForm";
+            listBox1 = new ListBox();
+            label2 = new Label();
+            labelCours = new Label();
+            SuspendLayout();
+            // 
+            // listBox1
+            // 
+            listBox1.FormattingEnabled = true;
+            listBox1.Items.AddRange(new object[] { "Math", "Programmation C#", "Programmation Web (Client)", "Électricité", "Arduino", "CAO" });
+            listBox1.Location = new Point(35, 76);
+            listBox1.Name = "listBox1";
+            listBox1.Size = new Size(271, 304);
+            listBox1.TabIndex = 0;
+            listBox1.SelectedIndexChanged += listBox1_SelectedIndexChanged;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(339, 79);
+            label2.Name = "label2";
+            label2.Size = new Size(92, 20);
+            label2.TabIndex = 2;
+            label2.Text = "Description :";
+            label2.Click += label2_Click;
+            // 
+            // labelCours
+            // 
+            labelCours.AutoSize = true;
+            labelCours.Location = new Point(339, 125);
+            labelCours.Name = "labelCours";
+            labelCours.Size = new Size(42, 20);
+            labelCours.TabIndex = 3;
+            labelCours.Tag = "";
+            labelCours.Text = "zefef";
+            labelCours.Click += labelCours_Click;
+            // 
+            // CourseCatalogForm
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(labelCours);
+            Controls.Add(label2);
+            Controls.Add(listBox1);
+            Name = "CourseCatalogForm";
+            Text = "CourseCatalogForm";
+            Load += CourseCatalogForm_Load;
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private ListBox listBox1;
+        private Label label2;
+        private Label labelCours;
     }
 }
