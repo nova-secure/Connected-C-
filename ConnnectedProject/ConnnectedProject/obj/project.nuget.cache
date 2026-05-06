@@ -1,18 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kGrOZiP/r/8=",
+  "dgSpecHash": "KczU0rp3aYg=",
   "success": true,
-  "projectFilePath": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\ConnnectedProject.csproj",
+  "projectFilePath": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\ConnnectedProject.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "message": "Problème de lecture du fichier cache C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\obj\\project.nuget.cache\u00A0: '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0.",
-      "projectPath": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\ConnnectedProject.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\ConnnectedProject.csproj",
-      "targetGraphs": []
-    }
-  ]
+  "logs": []
 }

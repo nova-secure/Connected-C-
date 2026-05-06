@@ -14,22 +14,25 @@ namespace ConnnectedProject.Controllers
         {
             List<Courses> coursPubliés = new List<Courses>();
 
-            foreach (Courses e in DataStore.Courses)
+            foreach (Courses e in DataStore.courses)
             {
-                if (e.EstPublié == true)
+                if (e.EstPublie == true)
                 {
                     coursPubliés.Add(e);
                 }
             }
+            return coursPubliés;
         }
-        public class Bulletin : User
+
+        public void Bulletin()
         {
-            bool ConnecterOuPas = (DataStore in Student.Id);
-            int[] MoyenneNote = { Grade };
+           // bool ConnecterOuPas = (DataStore in Student.Id;
+            //int[] MoyenneNote = { Grade };
 
-            double Moy = MoyenneNote.Average();
-
+            //double Moy = MoyenneNote.Average();
         }
+
     }
+
 
 }
