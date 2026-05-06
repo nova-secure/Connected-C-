@@ -22,9 +22,9 @@ namespace ConnnectedProject.Views
 
         private void button1_Click(object sender, EventArgs e)
         {
-            CourseCatalogForm Connected = new CourseCatalogForm();
+            CourseCatalogForm Cours = new CourseCatalogForm();
             this.Hide();
-            Connected.ShowDialog();
+            Cours.ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)

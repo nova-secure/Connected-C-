@@ -30,3 +30,19 @@ C:\Users\ilias\Documents\GitHub\Connected-C-\ConnnectedProject\ConnnectedProject
 C:\Users\ilias\Documents\GitHub\Connected-C-\ConnnectedProject\ConnnectedProject\obj\Debug\net10.0-windows\ConnnectedProject.Views.CourseEditorForm.resources
 C:\Users\ilias\Documents\GitHub\Connected-C-\ConnnectedProject\ConnnectedProject\obj\Debug\net10.0-windows\ConnnectedProject.Views.GradingForm.resources
 C:\Users\ilias\Documents\GitHub\Connected-C-\ConnnectedProject\ConnnectedProject\obj\Debug\net10.0-windows\ConnnectedProject.Views.ProfessorDashboardForm.resources
+C:\Cours 2025-2026\Cours Q2\Programmation Laboratoire Q2\Labo projet 10 Mai\Connected-C-\ConnnectedProject\ConnnectedProject\obj\Debug\net10.0-windows\ConnnectedProject.Views.CourseCatalogForm.resources
+C:\Cours 2025-2026\Cours Q2\Programmation Laboratoire Q2\Labo projet 10 Mai\Connected-C-\ConnnectedProject\ConnnectedProject\obj\Debug\net10.0-windows\ConnnectedProject.Views.CourseEditorForm.resources
+C:\Cours 2025-2026\Cours Q2\Programmation Laboratoire Q2\Labo projet 10 Mai\Connected-C-\ConnnectedProject\ConnnectedProject\obj\Debug\net10.0-windows\ConnnectedProject.Views.GradingForm.resources
+C:\Cours 2025-2026\Cours Q2\Programmation Laboratoire Q2\Labo projet 10 Mai\Connected-C-\ConnnectedProject\ConnnectedProject\obj\Debug\net10.0-windows\ConnnectedProject.Views.LoginForm.resources
+C:\Cours 2025-2026\Cours Q2\Programmation Laboratoire Q2\Labo projet 10 Mai\Connected-C-\ConnnectedProject\ConnnectedProject\obj\Debug\net10.0-windows\ConnnectedProject.Views.ProfessorDashboardForm.resources
+C:\Cours 2025-2026\Cours Q2\Programmation Laboratoire Q2\Labo projet 10 Mai\Connected-C-\ConnnectedProject\ConnnectedProject\obj\Debug\net10.0-windows\ConnnectedProject.Views.ReportCardForm.resources
+C:\Cours 2025-2026\Cours Q2\Programmation Laboratoire Q2\Labo projet 10 Mai\Connected-C-\ConnnectedProject\ConnnectedProject\obj\Debug\net10.0-windows\ConnnectedProject.Views.StudentDashboardForm.resources
+C:\Cours 2025-2026\Cours Q2\Programmation Laboratoire Q2\Labo projet 10 Mai\Connected-C-\ConnnectedProject\ConnnectedProject\obj\Debug\net10.0-windows\ConnnectedProject.csproj.GenerateResource.cache
+C:\Cours 2025-2026\Cours Q2\Programmation Laboratoire Q2\Labo projet 10 Mai\Connected-C-\ConnnectedProject\ConnnectedProject\obj\Debug\net10.0-windows\ConnnectedProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Cours 2025-2026\Cours Q2\Programmation Laboratoire Q2\Labo projet 10 Mai\Connected-C-\ConnnectedProject\ConnnectedProject\obj\Debug\net10.0-windows\ConnnectedProject.AssemblyInfoInputs.cache
+C:\Cours 2025-2026\Cours Q2\Programmation Laboratoire Q2\Labo projet 10 Mai\Connected-C-\ConnnectedProject\ConnnectedProject\obj\Debug\net10.0-windows\ConnnectedProject.AssemblyInfo.cs
+C:\Cours 2025-2026\Cours Q2\Programmation Laboratoire Q2\Labo projet 10 Mai\Connected-C-\ConnnectedProject\ConnnectedProject\obj\Debug\net10.0-windows\ConnnectedProject.csproj.CoreCompileInputs.cache
+C:\Cours 2025-2026\Cours Q2\Programmation Laboratoire Q2\Labo projet 10 Mai\Connected-C-\ConnnectedProject\ConnnectedProject\obj\Debug\net10.0-windows\ConnnectedProject.sourcelink.json
+C:\Cours 2025-2026\Cours Q2\Programmation Laboratoire Q2\Labo projet 10 Mai\Connected-C-\ConnnectedProject\ConnnectedProject\obj\Debug\net10.0-windows\ConnnectedProject.dll
+C:\Cours 2025-2026\Cours Q2\Programmation Laboratoire Q2\Labo projet 10 Mai\Connected-C-\ConnnectedProject\ConnnectedProject\obj\Debug\net10.0-windows\refint\ConnnectedProject.dll
+C:\Cours 2025-2026\Cours Q2\Programmation Laboratoire Q2\Labo projet 10 Mai\Connected-C-\ConnnectedProject\ConnnectedProject\obj\Debug\net10.0-windows\ConnnectedProject.pdb
