@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 using System.Text;
 
 namespace ConnnectedProject.Controllers
@@ -24,15 +25,30 @@ namespace ConnnectedProject.Controllers
             return coursPubliés;
         }
 
-        public void Bulletin()
+        public double Bulletin(int IdStudent)
         {
-           // bool ConnecterOuPas = (DataStore in Student.Id;
-            //int[] MoyenneNote = { Grade };
+            var notesEtudiant = DataStore.Grades.Where(g => g.IdEtudiant == IdStudent).ToList();
+            if (notesEtudiant.Count == 0)
+            {
+                return 0;
+            }
 
-            //double Moy = MoyenneNote.Average();
+            double moyenne = notesEtudiant.Average(g => g.Note);
+            return moyenne;
         }
 
+
+
+
+
+
+
+
+
+
+        //bool ConnecterOuPas = (Student in Id);
+        //int[] MoyenneNote = {Grade};
+
+        //double Moy = MoyenneNote.Average(Grade);
     }
-
-
 }

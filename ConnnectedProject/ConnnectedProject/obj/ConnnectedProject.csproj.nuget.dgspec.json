@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\ConnnectedProject.csproj": {}
+    "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\ConnnectedProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\ConnnectedProject.csproj": {
+    "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\ConnnectedProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\ConnnectedProject.csproj",
+        "projectUniqueName": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\ConnnectedProject.csproj",
         "projectName": "ConnnectedProject",
-        "projectPath": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\ConnnectedProject.csproj",
-        "packagesPath": "C:\\Users\\zouba\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\obj\\",
+        "projectPath": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\ConnnectedProject.csproj",
+        "packagesPath": "C:\\Users\\SessionTravailleÉcol\\.nuget\\packages\\",
+        "outputPath": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\zouba\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\SessionTravailleÉcol\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,7 +41,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0-windows": {
@@ -70,7 +66,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300-preview.0.26177.108/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

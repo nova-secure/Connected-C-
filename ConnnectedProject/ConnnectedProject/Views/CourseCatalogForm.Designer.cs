@@ -36,7 +36,7 @@
             // listBox1
             // 
             listBox1.FormattingEnabled = true;
-            listBox1.Items.AddRange(new object[] { "Math", "Programmation C#", "Programmation Web (Client)", "Électricité", "Arduino", "CAO" });
+            listBox1.Items.AddRange(new object[] { "Anglais", "Linux", "Math", "Electrotechnique", "Electronique", "Algorithmique", "IVS", "Philosophie", "Programmation", "Logique Binaire", "Thoérie Programmation", "Microsystème" });
             listBox1.Location = new Point(12, 79);
             listBox1.Name = "listBox1";
             listBox1.Size = new Size(271, 304);
