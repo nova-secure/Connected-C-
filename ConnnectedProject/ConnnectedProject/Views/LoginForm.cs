@@ -24,20 +24,19 @@ namespace ConnnectedProject.Views
 
             if (userConnecte != null)
             {
-
                 if (userConnecte.Role == "Admin")
                 {
-                    // new AdminDashboardForm().Show();  Zoubair
-                    MessageBox.Show("Ouverture du Dashboard de Zoubair (Admin)");
+                    PanelController adminPanel = new PanelController();
+                    adminPanel.FormClosed += (s, args) => this.Show();
+                    adminPanel.Show();
+                    this.Hide();
                 }
-                else if (userConnecte.Role == "Professeur")
+                else if (userConnecte.Role == "Professor" || userConnecte.Role == "Professeur")
                 {
-                    // new ProfessorDashboardForm().Show(); Lorenzo
                     MessageBox.Show("Ouverture du Dashboard de Lorenzo (Prof)");
                 }
-                else if (userConnecte.Role == "Etudiant")
+                else if (userConnecte.Role == "Student" || userConnecte.Role == "Etudiant")
                 {
-                    // new StudentDashboardForm().Show(); Thibaut
                     MessageBox.Show("Ouverture du Dashboard de Thibaut (Étudiant)");
                 }
             }
