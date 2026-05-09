@@ -36,19 +36,5 @@ namespace ConnnectedProject.Controllers
             double moyenne = notesEtudiant.Average(g => g.Note);
             return moyenne;
         }
-
-
-
-
-
-
-
-
-
-
-        //bool ConnecterOuPas = (Student in Id);
-        //int[] MoyenneNote = {Grade};
-
-        //double Moy = MoyenneNote.Average(Grade);
     }
 }
