@@ -6,7 +6,7 @@ namespace ConnnectedProject.Models
 {
     public  class User(string nom, string prenom, string email, string motDePasse)
     {
-        public int Id { get; set; } = Guid.NewGuid().GetHashCode();
+        public int Id { get; set; } = Math.Abs(Guid.NewGuid().GetHashCode());
         public string Nom { get; set; } = nom;
         public string Prenom { get; set; } = prenom;
         public string Email { get; set; } = email;
