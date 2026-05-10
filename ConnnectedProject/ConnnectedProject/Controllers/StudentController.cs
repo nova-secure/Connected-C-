@@ -15,10 +15,10 @@ namespace ConnnectedProject.Controllers
         {
             List<Courses> coursPubliés = new List<Courses>();
 
-            //j'ai corrigé la cas pour  ciblé  la bonne variabl Courses
+            
             foreach (Courses e in DataStore.Courses)
             {
-                if (e.EstPublie == true)
+                if (e.IsPublished == true)
                 {
                     coursPubliés.Add(e);
                 }
@@ -28,14 +28,26 @@ namespace ConnnectedProject.Controllers
 
         public double Bulletin(int IdStudent)
         {
-            var notesEtudiant = DataStore.Grades.Where(g => g.IdEtudiant == IdStudent).ToList();
+            System.Collections.Generic.List<Grade> notesEtudiant = DataStore.Grades.Where(g => g.StudentId == IdStudent).ToList();
             if (notesEtudiant.Count == 0)
             {
                 return 0;
             }
 
-            double moyenne = notesEtudiant.Average(g => g.Note);
+            double moyenne = notesEtudiant.Average(g => g.Score);
             return moyenne;
         }
+
+        public List<GradeDetail> GetDetailedGrades(int studentId)
+        {
+            return DataStore.Grades.Where(g => g.StudentId == studentId)
+                .Join(DataStore.Courses, grade => grade.CourseId, cours => cours.Id, (grade, cours) => new GradeDetail { Matière = cours.Title, Score = grade.Score }).ToList();
+        }
+    }
+
+    public class GradeDetail
+    {
+        public string Matière { get; set; }
+        public double Score { get; set; }
     }
 }

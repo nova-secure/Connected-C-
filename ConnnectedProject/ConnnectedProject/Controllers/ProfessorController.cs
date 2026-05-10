@@ -11,16 +11,16 @@ namespace ConnnectedProject.Controllers
             if (string.IsNullOrWhiteSpace(titre))
                 return null;
 
-            var course = new Courses // var ici vaut Course, le compilateur peut le d�duire � partir de l'initialisation je me fou de hahaha
+            Courses course = new Courses 
             {
                 Id = DataStore.NextCourseId++,
-                Titre = titre.Trim(),
+                Title = titre.Trim(),
                 Description = description?.Trim() ?? string.Empty,
-                IdProfesseur = idProfesseur,
-                EstPublie = estPublie
+                ProfessorId = idProfesseur,
+                IsPublished = estPublie
             };
 
-            //jai corrigé le c de  course en  C majuscul
+            
             DataStore.Courses.Add(course);
             return course;
         }
@@ -30,25 +30,32 @@ namespace ConnnectedProject.Controllers
             if (note < 0 || note > 20)
                 return null;
 
-            var student = DataStore.Users.OfType<Student>().FirstOrDefault(s => s.Id == idEtudiant); //On v�rifie que l'�tudiant existe et est bien un �tudiant
-            var course = DataStore.Courses.FirstOrDefault(c => c.Id == idCours); // pareil pour le cours
+            Student? student = DataStore.Users.OfType<Student>().FirstOrDefault(s => s.Id == idEtudiant); 
+            Courses? course = DataStore.Courses.FirstOrDefault(c => c.Id == idCours); 
 
             if (student == null || course == null)
                 return null;
 
-            var grade = new Grade
+            Grade grade = new Grade
             {
                 Id = DataStore.NextGradeId++,
-                IdEtudiant = idEtudiant,
-                IdCours = idCours,
-                Note = note
+                StudentId = idEtudiant,
+                CourseId = idCours,
+                Score = note
             };
 
             DataStore.Grades.Add(grade);
             return grade;
         }
 
-       
+        public System.Collections.Generic.List<Student> GetAllStudents()
+        {
+            return DataStore.Users.OfType<Student>().ToList();
+        }
+
+        public System.Collections.Generic.List<Courses> GetCoursesByProfessor(int professorId)
+        {
+            return DataStore.Courses.Where(c => c.ProfessorId == professorId).ToList();
+        }
     }
 }
-

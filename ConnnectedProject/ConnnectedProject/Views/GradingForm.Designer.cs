@@ -33,9 +33,9 @@ namespace ConnnectedProject.Views
             btnSave = new Button();
             ((System.ComponentModel.ISupportInitialize)numNote).BeginInit();
             SuspendLayout();
-            // 
-            // lblTitle
-            // 
+            
+            
+            
             lblTitle.AutoSize = true;
             lblTitle.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
             lblTitle.Location = new Point(30, 25);
@@ -44,9 +44,9 @@ namespace ConnnectedProject.Views
             lblTitle.Size = new Size(254, 38);
             lblTitle.TabIndex = 0;
             lblTitle.Text = "Noter un étudiant";
-            // 
-            // lblStudent
-            // 
+            
+            
+            
             lblStudent.AutoSize = true;
             lblStudent.Location = new Point(30, 100);
             lblStudent.Margin = new Padding(4, 0, 4, 0);
@@ -54,9 +54,9 @@ namespace ConnnectedProject.Views
             lblStudent.Size = new Size(77, 25);
             lblStudent.TabIndex = 1;
             lblStudent.Text = "Étudiant";
-            // 
-            // cmbStudents
-            // 
+            
+            
+            
             cmbStudents.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbStudents.FormattingEnabled = true;
             cmbStudents.Location = new Point(30, 129);
@@ -64,9 +64,9 @@ namespace ConnnectedProject.Views
             cmbStudents.Name = "cmbStudents";
             cmbStudents.Size = new Size(662, 33);
             cmbStudents.TabIndex = 2;
-            // 
-            // lblCourse
-            // 
+            
+            
+            
             lblCourse.AutoSize = true;
             lblCourse.Location = new Point(30, 188);
             lblCourse.Margin = new Padding(4, 0, 4, 0);
@@ -74,9 +74,9 @@ namespace ConnnectedProject.Views
             lblCourse.Size = new Size(58, 25);
             lblCourse.TabIndex = 3;
             lblCourse.Text = "Cours";
-            // 
-            // cmbCourses
-            // 
+            
+            
+            
             cmbCourses.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbCourses.FormattingEnabled = true;
             cmbCourses.Location = new Point(30, 216);
@@ -84,9 +84,9 @@ namespace ConnnectedProject.Views
             cmbCourses.Name = "cmbCourses";
             cmbCourses.Size = new Size(662, 33);
             cmbCourses.TabIndex = 4;
-            // 
-            // lblNote
-            // 
+            
+            
+            
             lblNote.AutoSize = true;
             lblNote.Location = new Point(30, 275);
             lblNote.Margin = new Padding(4, 0, 4, 0);
@@ -94,9 +94,9 @@ namespace ConnnectedProject.Views
             lblNote.Size = new Size(51, 25);
             lblNote.TabIndex = 5;
             lblNote.Text = "Note";
-            // 
-            // numNote
-            // 
+            
+            
+            
             numNote.DecimalPlaces = 1;
             numNote.Location = new Point(30, 304);
             numNote.Margin = new Padding(4, 4, 4, 4);
@@ -104,9 +104,9 @@ namespace ConnnectedProject.Views
             numNote.Name = "numNote";
             numNote.Size = new Size(150, 31);
             numNote.TabIndex = 6;
-            // 
-            // btnSave
-            // 
+            
+            
+            
             btnSave.BackColor = Color.FromArgb(0, 120, 215);
             btnSave.FlatStyle = FlatStyle.Flat;
             btnSave.ForeColor = Color.White;
@@ -118,9 +118,9 @@ namespace ConnnectedProject.Views
             btnSave.Text = "Sauvegarder";
             btnSave.UseVisualStyleBackColor = false;
             btnSave.Click += BtnSave_Click;
-            // 
-            // GradingForm
-            // 
+            
+            
+            
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(730, 439);

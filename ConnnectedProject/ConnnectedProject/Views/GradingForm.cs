@@ -20,16 +20,17 @@ namespace ConnnectedProject.Views
         private void LoadData()
         {
             cmbStudents.Items.Clear();
-            foreach (var student in DataStore.Users.OfType<Student>())
+            ProfessorController controller = new ProfessorController();
+            foreach (Student student in controller.GetAllStudents())
             {
-                cmbStudents.Items.Add(new ComboBoxItem(student.Id, $"{student.Prenom} {student.Nom} (ID {student.Id})"));
+                cmbStudents.Items.Add(new ComboBoxItem(student.Id, $"{student.FirstName} {student.LastName} (ID {student.Id})"));
             }
 
             cmbCourses.Items.Clear();
-            //j'ai corriger la variabl pour eviter  le beug
-            foreach (var course in DataStore.Courses.Where(c => c.IdProfesseur == _professor.Id))
+            
+            foreach (Courses course in controller.GetCoursesByProfessor(_professor.Id))
             {
-                cmbCourses.Items.Add(new ComboBoxItem(course.Id, $"{course.Titre} (ID {course.Id})"));
+                cmbCourses.Items.Add(new ComboBoxItem(course.Id, $"{course.Title} (ID {course.Id})"));
             }
 
             if (cmbStudents.Items.Count > 0)
@@ -47,8 +48,8 @@ namespace ConnnectedProject.Views
                 return;
             }
 
-            var controller = new ProfessorController();
-            var grade = controller.GiveGrade(studentItem.Id, courseItem.Id, (double)numNote.Value);
+            ProfessorController controller = new ProfessorController();
+            Grade grade = controller.GiveGrade(studentItem.Id, courseItem.Id, (double)numNote.Value);
 
             if (grade != null)
             {

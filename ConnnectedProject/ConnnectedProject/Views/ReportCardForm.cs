@@ -12,16 +12,16 @@ namespace ConnnectedProject.Views
     {
         private Models.Student _student;
 
-        //j'ai mit  l'etudian on  paramtr pour calcluer la  moyene
+        
         public ReportCardForm(Models.Student student)
         {
             _student = student;
             InitializeComponent();
 
-            var ctrl = new ConnnectedProject.Controllers.StudentController();
+            ConnnectedProject.Controllers.StudentController ctrl = new ConnnectedProject.Controllers.StudentController();
             double moyene = ctrl.Bulletin(_student.Id);
 
-            //jafiche la moyenn  sur le label
+            
             label1.Text = "Ta moyenne est de " + moyene.ToString("0.00") + " !";
 
             DataGridView dgvNotes = new DataGridView
@@ -31,9 +31,7 @@ namespace ConnnectedProject.Views
                 Width = 600,
                 Height = 450,
              };
-                var detailNotes = Models.DataStore.Grades.Where(g => g.IdEtudiant == _student.Id).Join(Models.DataStore.Courses,grade => grade.IdCours,cours => cours.Id,(grade, cours) => new
-             {
-                Matière = cours.Titre,Note = grade.Note}).ToList();
+                List<ConnnectedProject.Controllers.GradeDetail> detailNotes = ctrl.GetDetailedGrades(_student.Id);
 
                 dgvNotes.DataSource = detailNotes;
                 this.Controls.Add(dgvNotes);

@@ -4,17 +4,18 @@ namespace ConnnectedProject
 {
     internal static class Program
     {
-        /// <summary>
-        ///  The main entry point for the application.
-        /// </summary>
+        
+        
+        
         [STAThread]
         static void Main()
         {
-            // To customize application configuration such as set high DPI settings or default font,
-            // see https://aka.ms/applicationconfiguration.
+            
+            
             ApplicationConfiguration.Initialize();
-            //jai retrai le 'new' vu  qe la classe ai  maintenant stitique
-            DataStore.InitialiserDonnees();
+            
+            //faut absolument  charger les fausses données  ici avant de lancer la form sinon le login  il marchera  jamais
+            DataStore.InitializeData();
             Application.Run(new LoginForm());
         }
     }

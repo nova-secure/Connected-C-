@@ -12,16 +12,16 @@ namespace ConnnectedProject.Views
     {
         private Models.Student _student;
 
-        // Ancienne ligne : public StudentDashboardForm()
-        // Explication : Salut, j'ai ajouté l'étudiant en paramètre pour pouvoir l'utiliser dans ce dashboard et éviter le crash à la compilation.
+        
+        
         public StudentDashboardForm(Models.Student student)
         {
             _student = student;
             InitializeComponent();
-            this.Text = "Bienvenue AKHY ! - " + _student.Prenom;
+            this.Text = "Bienvenue AKHY ! - " + _student.FirstName;
 
 
-            // Explication : Salut, j'ai ajouté un bouton par le code pour permettre à l'étudiant d'aller voir son bulletin, car ça manquait.
+            
             Button btnBulletin = new Button();
             btnBulletin.Text = "Voir mon Bulletin";
             btnBulletin.Top = 150;
@@ -29,7 +29,7 @@ namespace ConnnectedProject.Views
             btnBulletin.Width = 150;
             btnBulletin.Click += (s, e) =>
             {
-                var f = new ReportCardForm(_student);
+                ReportCardForm f = new ReportCardForm(_student);
                 f.Show();
             };
             this.Controls.Add(btnBulletin);

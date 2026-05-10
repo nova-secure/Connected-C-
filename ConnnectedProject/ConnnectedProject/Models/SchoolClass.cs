@@ -1,4 +1,4 @@
-enum Classe{
+enum SchoolClass{
     A,
     B,
     C

@@ -27,9 +27,9 @@ namespace ConnnectedProject.Views
             lblDescription = new Label();
             txtDescription = new TextBox();
             SuspendLayout();
-            // 
-            // lblTitle
-            // 
+            
+            
+            
             lblTitle.AutoSize = true;
             lblTitle.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
             lblTitle.Location = new Point(24, 20);
@@ -37,25 +37,25 @@ namespace ConnnectedProject.Views
             lblTitle.Size = new Size(288, 32);
             lblTitle.TabIndex = 0;
             lblTitle.Text = "Créer un nouveau cours";
-            // 
-            // lblTitre
-            // 
+            
+            
+            
             lblTitre.AutoSize = true;
             lblTitre.Location = new Point(24, 74);
             lblTitre.Name = "lblTitre";
             lblTitre.Size = new Size(39, 20);
             lblTitre.TabIndex = 1;
             lblTitre.Text = "Titre";
-            // 
-            // txtTitre
-            // 
+            
+            
+            
             txtTitre.Location = new Point(24, 97);
             txtTitre.Name = "txtTitre";
             txtTitre.Size = new Size(530, 27);
             txtTitre.TabIndex = 2;
-            // 
-            // btnSave
-            // 
+            
+            
+            
             btnSave.BackColor = Color.FromArgb(0, 120, 215);
             btnSave.FlatStyle = FlatStyle.Flat;
             btnSave.ForeColor = Color.White;
@@ -66,9 +66,9 @@ namespace ConnnectedProject.Views
             btnSave.Text = "Sauvegarder";
             btnSave.UseVisualStyleBackColor = false;
             btnSave.Click += BtnSave_Click;
-            // 
-            // checkBoxPublie
-            // 
+            
+            
+            
             checkBoxPublie.AutoSize = true;
             checkBoxPublie.Location = new Point(237, 380);
             checkBoxPublie.Name = "checkBoxPublie";
@@ -76,27 +76,27 @@ namespace ConnnectedProject.Views
             checkBoxPublie.TabIndex = 6;
             checkBoxPublie.Text = "Publier";
             checkBoxPublie.UseVisualStyleBackColor = true;
-            // 
-            // lblDescription
-            // 
+            
+            
+            
             lblDescription.AutoSize = true;
             lblDescription.Location = new Point(24, 141);
             lblDescription.Name = "lblDescription";
             lblDescription.Size = new Size(85, 20);
             lblDescription.TabIndex = 3;
             lblDescription.Text = "Description";
-            // 
-            // txtDescription
-            // 
+            
+            
+            
             txtDescription.Location = new Point(24, 164);
             txtDescription.Multiline = true;
             txtDescription.Name = "txtDescription";
             txtDescription.Size = new Size(530, 190);
             txtDescription.TabIndex = 4;
-            txtDescription.TextChanged += textBox1_TextChanged; //j'ai modifié car j'ai fait une gourde en supprimant le textbox de base
-            // 
-            // CourseEditorForm
-            // 
+            txtDescription.TextChanged += textBox1_TextChanged; 
+            
+            
+            
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(584, 431);

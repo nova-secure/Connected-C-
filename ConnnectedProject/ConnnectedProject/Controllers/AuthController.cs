@@ -7,11 +7,11 @@ namespace ConnnectedProject.Controllers
 {
     internal class AuthController
     {
-        public User Authentication(string email, string mdp)
+        public User Authentication(string email, string pwd)
         {
             for (int i = 0;i < DataStore.Users.Count; i++ )
             {
-                if (email == DataStore.Users[i].Email && mdp == DataStore.Users[i].MotDePasse)
+                if (email == DataStore.Users[i].Email && pwd == DataStore.Users[i].Password)
                     return DataStore.Users[i];
             }
             return null;

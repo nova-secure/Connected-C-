@@ -8,7 +8,7 @@ namespace ConnnectedProject.Models
     {
         public List<string> Classes { get; set; } = new List<string>();
 
-        public Professor(string nom, string prenom, string email, string motDePasse) : base(nom, prenom, email, motDePasse)
+        public Professor(string lastName, string firstName, string email, string password) : base(lastName, firstName, email, password)
         {
             Role = global::Role.Professor.ToString();
         }

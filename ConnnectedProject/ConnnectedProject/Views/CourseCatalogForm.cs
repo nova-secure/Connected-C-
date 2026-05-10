@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using ConnnectedProject.Models;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
@@ -31,14 +32,14 @@ namespace ConnnectedProject.Views
 
         private void CourseCatalogForm_Load(object sender, EventArgs e)
         {
-            //jappel l cotrolleur pr recuprer l  liste de cour
-            var listeCours = _controller.CoursQuiSontPublié();
+            
+            List<Courses> listeCours = _controller.CoursQuiSontPublié();
             listBox1.Items.Clear();
             Hide();
   
-            foreach (var c in listeCours)
+            foreach (Courses c in listeCours)
             {
-                listBox1.Items.Add(c.Titre);
+                listBox1.Items.Add(c.Title);
             }
         }
 

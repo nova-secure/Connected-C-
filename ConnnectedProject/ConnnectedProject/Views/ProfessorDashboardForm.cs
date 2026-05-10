@@ -9,6 +9,14 @@ using System.Windows.Forms;
 
 namespace ConnnectedProject.Views
 {
+    public class CourseDisplayDto
+    {
+        public int Id { get; set; }
+        public string Title { get; set; }
+        public string Description { get; set; }
+        public string Status { get; set; }
+    }
+
     public partial class ProfessorDashboardForm : Form
     {
 
@@ -18,7 +26,7 @@ namespace ConnnectedProject.Views
         public ProfessorDashboardForm(Professor professor)
         {
             _professor = professor;
-            Text = $"Espace Professeur - {_professor.Prenom} {_professor.Nom}";
+            Text = $"Espace Professeur - {_professor.FirstName} {_professor.LastName}";
             Width = 800;
             Height = 520;
             StartPosition = FormStartPosition.CenterScreen;
@@ -70,15 +78,15 @@ namespace ConnnectedProject.Views
 
         private void LoadCourses()
         {
-            //jai remi la maguscule pour aceder  a  la variabl
-            var Courses = DataStore.Courses
-                .Where(c => c.IdProfesseur == _professor.Id)
-                .Select(c => new
+            ConnnectedProject.Controllers.ProfessorController controller = new ConnnectedProject.Controllers.ProfessorController();
+            //ce where  filtre les cours pour afficher que  ceux du prof connecté parceque sinon il  voit tout
+            List<CourseDisplayDto> Courses = controller.GetCoursesByProfessor(_professor.Id)
+                .Select(c => new CourseDisplayDto
                 {
-                    c.Id,
-                    c.Titre,
-                    c.Description,
-                    EstPubli = c.EstPublie ? "Oui" : "Non"
+                    Id = c.Id,
+                    Title = c.Title,
+                    Description = c.Description,
+                    Status = c.IsPublished ? "Publié" : "Brouillon"
                 })
                 .ToList();
 
@@ -91,7 +99,7 @@ namespace ConnnectedProject.Views
 
         private void BtnAddCourse_Click(object sender, EventArgs e)
         {
-            using var editor = new CourseEditorForm(_professor);
+            using CourseEditorForm editor = new CourseEditorForm(_professor);
             if (editor.ShowDialog() == DialogResult.OK)
             {
                 LoadCourses();
@@ -100,15 +108,16 @@ namespace ConnnectedProject.Views
 
         private void BtnGradeStudent_Click(object sender, EventArgs e)
         {
-            //jai egalement corriger  l'ereur d orthographe de courses  içi
-            if (!DataStore.Courses.Any(c => c.IdProfesseur == _professor.Id))
+            ConnnectedProject.Controllers.ProfessorController controller = new ConnnectedProject.Controllers.ProfessorController();
+            //verif cruciale pour pas laisser  le prof noter s'il a aucun  cours sinon ca fait un null pointer et ca crash tout
+            if (!controller.GetCoursesByProfessor(_professor.Id).Any())
             {
                 MessageBox.Show("Vous devez d'abord créer un cours avant de noter un étudiant.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
             }
 
-            using var grading = new GradingForm(_professor);
-            grading.ShowDialog();
+            using GradingForm grading = new GradingForm(_professor);
+            if (grading.ShowDialog() == DialogResult.OK) { }
         }
 
         private void BtnRefresh_Click(object sender, EventArgs e)

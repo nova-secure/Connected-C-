@@ -27,9 +27,9 @@
             btnRefresh = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)dgvCourses).BeginInit();
             SuspendLayout();
-            // 
-            // lblTitle
-            // 
+            
+            
+            
             lblTitle.AutoSize = true;
             lblTitle.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             lblTitle.Location = new System.Drawing.Point(24, 18);
@@ -37,9 +37,9 @@
             lblTitle.Size = new System.Drawing.Size(211, 32);
             lblTitle.TabIndex = 0;
             lblTitle.Text = "Mes cours publiés";
-            // 
-            // dgvCourses
-            // 
+            
+            
+            
             dgvCourses.AllowUserToAddRows = false;
             dgvCourses.AllowUserToDeleteRows = false;
             dgvCourses.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
@@ -51,9 +51,9 @@
             dgvCourses.RowTemplate.Height = 29;
             dgvCourses.Size = new System.Drawing.Size(772, 340);
             dgvCourses.TabIndex = 1;
-            // 
-            // btnAddCourse
-            // 
+            
+            
+            
             btnAddCourse.BackColor = System.Drawing.Color.FromArgb(0, 120, 215);
             btnAddCourse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             btnAddCourse.ForeColor = System.Drawing.Color.White;
@@ -64,9 +64,9 @@
             btnAddCourse.Text = "Créer un cours";
             btnAddCourse.UseVisualStyleBackColor = false;
             btnAddCourse.Click += BtnAddCourse_Click;
-            // 
-            // btnGradeStudent
-            // 
+            
+            
+            
             btnGradeStudent.BackColor = System.Drawing.Color.FromArgb(0, 120, 215);
             btnGradeStudent.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             btnGradeStudent.ForeColor = System.Drawing.Color.White;
@@ -77,9 +77,9 @@
             btnGradeStudent.Text = "Noter un étudiant";
             btnGradeStudent.UseVisualStyleBackColor = false;
             btnGradeStudent.Click += BtnGradeStudent_Click;
-            // 
-            // btnRefresh
-            // 
+            
+            
+            
             btnRefresh.BackColor = System.Drawing.Color.FromArgb(0, 120, 215);
             btnRefresh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             btnRefresh.ForeColor = System.Drawing.Color.White;
@@ -90,9 +90,9 @@
             btnRefresh.Text = "Actualiser";
             btnRefresh.UseVisualStyleBackColor = false;
             btnRefresh.Click += BtnRefresh_Click;
-            // 
-            // ProfessorDashboardForm
-            // 
+            
+            
+            
             AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             ClientSize = new System.Drawing.Size(820, 480);

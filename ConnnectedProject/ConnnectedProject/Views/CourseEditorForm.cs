@@ -19,7 +19,7 @@ namespace ConnnectedProject.Views
         public void BtnSave_Click(object sender, EventArgs e)
         {
             string titre = txtTitre.Text;
-            //string description = txtDescription.Text;
+            
 
             if (titre == "")
             {
@@ -27,7 +27,7 @@ namespace ConnnectedProject.Views
                 return;
             }
 
-            // On regarde si la case est cochée
+            
             bool estPublie = false;
             if (checkBoxPublie.Checked == true)
             {
@@ -35,7 +35,7 @@ namespace ConnnectedProject.Views
             }
 
             ProfessorController controller = new ProfessorController();
-            // On utilise la variable estPublie au lieu de false
+            
             Courses course = controller.AddCourse(_professor.Id, titre, txtDescription.Text, estPublie);
 
             if (course != null)

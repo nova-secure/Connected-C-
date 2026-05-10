@@ -20,13 +20,13 @@ namespace ConnnectedProject.Views
         {
             AuthController auth = new AuthController();
 
-            User userConnecte = auth.Authentication(txtEmail.Text, txtMdp.Text);
+            User userConnecte = auth.Authentication(txtEmail.Text, txtPassword.Text);
 
             if (userConnecte != null)
             {
                 if (userConnecte.Role == "Admin")
                 {
-                    PanelController adminPanel = new PanelController();
+                    AdminPanelForm adminPanel = new AdminPanelForm();
                     adminPanel.FormClosed += (s, args) => this.Show();
                     adminPanel.Show();
                     this.Hide();

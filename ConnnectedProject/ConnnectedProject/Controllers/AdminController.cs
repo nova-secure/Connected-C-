@@ -7,134 +7,137 @@ namespace ConnnectedProject.Controllers
 {
     internal class AdminController
     {
-        public List<Professor> AfficherProfesseurs()
+        public List<Professor> GetProfessors()
         {
             return DataStore.Users.OfType<Professor>().ToList();
         }
 
-        public List<Student> AfficherEtudiants()
+        public List<Student> GetStudents()
         {
             return DataStore.Users.OfType<Student>().ToList();
         }
 
-        //jai  ajuté ct methode psk l  mankait pour lé stat
-        public int CompterEtudiants()
+        
+        //compte le nombre d'étudiants pour les stats  du tableau de  bord grace a  linq
+        public int CountStudents()
         {
             return DataStore.Users.OfType<Student>().Count();
         }
 
-        public List<User> AfficherTousLesUtilisateurs()
+        public List<User> GetAllUsers()
         {
             return DataStore.Users.ToList();
         }
 
-        public User CreerUtilisateur(string nom, string prenom, string email, string motDePasse, string role, string? classe = null)
+        public User CreateUser(string lastName, string firstName, string email, string password, string role, string? schoolClass = null)
         {
-            if (string.IsNullOrWhiteSpace(nom) || string.IsNullOrWhiteSpace(prenom) ||
-                string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(motDePasse) ||
+            if (string.IsNullOrWhiteSpace(lastName) || string.IsNullOrWhiteSpace(firstName) ||
+                string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(password) ||
                 string.IsNullOrWhiteSpace(role))
                 return null;
 
-            if (EmailExiste(email))
+            if (EmailExists(email))
                 return null;
 
-            User utilisateur;
+            //le switch sert a instancier la  bonne classe derivée parceque User c'est  une class abstract donc pas  de new User() possible
+            User user;
             switch (role)
             {
                 case "Admin":
-                    utilisateur = new Admin(nom.Trim(), prenom.Trim(), email.Trim(), motDePasse);
+                    user = new Admin(lastName.Trim(), firstName.Trim(), email.Trim(), password);
                     break;
                 case "Professor":
-                    utilisateur = new Professor(nom.Trim(), prenom.Trim(), email.Trim(), motDePasse);
+                    user = new Professor(lastName.Trim(), firstName.Trim(), email.Trim(), password);
                     break;
                 case "Student":
-                    if (string.IsNullOrWhiteSpace(classe))
+                    if (string.IsNullOrWhiteSpace(schoolClass))
                         return null;
-                    utilisateur = new Student(nom.Trim(), prenom.Trim(), email.Trim(), motDePasse)
+                    user = new Student(lastName.Trim(), firstName.Trim(), email.Trim(), password)
                     {
-                        Classe = classe.Trim()
+                        SchoolClass = schoolClass.Trim()
                     };
                     break;
                 default:
                     return null;
             }
 
-            DataStore.Users.Add(utilisateur);
-            return utilisateur;
+            DataStore.Users.Add(user);
+            return user;
         }
 
-        public bool ModifierUtilisateur(int id, string nom, string prenom, string email, string motDePasse, string role, string? classe = null)
+        public bool UpdateUser(int id, string lastName, string firstName, string email, string password, string role, string? schoolClass = null)
         {
-            var utilisateur = DataStore.Users.FirstOrDefault(u => u.Id == id);
-            if (utilisateur == null)
+            User? user = DataStore.Users.FirstOrDefault(u => u.Id == id);
+            if (user == null)
                 return false;
 
-            if (string.IsNullOrWhiteSpace(nom) || string.IsNullOrWhiteSpace(prenom) ||
+            if (string.IsNullOrWhiteSpace(lastName) || string.IsNullOrWhiteSpace(firstName) ||
                 string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(role))
                 return false;
 
-            if (EmailExiste(email, id))
+            if (EmailExists(email, id))
                 return false;
 
-            var roleInchange = utilisateur.Role.Equals(role, StringComparison.OrdinalIgnoreCase);
-            if (roleInchange)
+            //ce boolean verifie si le role a  changé, si oui on doit  recreer l'objet sinon on modifie juste le  nom et on garde le meme id
+            bool roleUnchanged = user.Role.Equals(role, StringComparison.OrdinalIgnoreCase);
+            if (roleUnchanged)
             {
-                utilisateur.Nom = nom.Trim();
-                utilisateur.Prenom = prenom.Trim();
-                utilisateur.Email = email.Trim();
-                utilisateur.MotDePasse = motDePasse;
+                user.LastName = lastName.Trim();
+                user.FirstName = firstName.Trim();
+                user.Email = email.Trim();
+                user.Password = password;
 
-                if (utilisateur is Student student)
+                if (user is Student student)
                 {
-                    student.Classe = classe?.Trim() ?? string.Empty;
+                    student.SchoolClass = schoolClass?.Trim() ?? string.Empty;
                 }
 
                 return true;
             }
 
-            User nouveau;
+            User newUser;
             switch (role)
             {
                 case "Admin":
-                    nouveau = new Admin(nom.Trim(), prenom.Trim(), email.Trim(), motDePasse);
+                    newUser = new Admin(lastName.Trim(), firstName.Trim(), email.Trim(), password);
                     break;
                 case "Professor":
-                    nouveau = new Professor(nom.Trim(), prenom.Trim(), email.Trim(), motDePasse);
+                    newUser = new Professor(lastName.Trim(), firstName.Trim(), email.Trim(), password);
                     break;
                 case "Student":
-                    if (string.IsNullOrWhiteSpace(classe))
+                    if (string.IsNullOrWhiteSpace(schoolClass))
                         return false;
-                    nouveau = new Student(nom.Trim(), prenom.Trim(), email.Trim(), motDePasse)
+                    newUser = new Student(lastName.Trim(), firstName.Trim(), email.Trim(), password)
                     {
-                        Classe = classe.Trim()
+                        SchoolClass = schoolClass.Trim()
                     };
                     break;
                 default:
                     return false;
             }
 
-            nouveau.Id = utilisateur.Id;
-            DataStore.Users.Remove(utilisateur);
-            DataStore.Users.Add(nouveau);
+            newUser.Id = user.Id;
+            DataStore.Users.Remove(user);
+            DataStore.Users.Add(newUser);
             return true;
         }
 
-        public User ObtenirUtilisateur(int id)
+        public User GetUser(int id)
         {
             return DataStore.Users.FirstOrDefault(u => u.Id == id);
         }
 
-        public bool SupprimerUtilisateur(int id)
+        public bool DeleteUser(int id)
         {
-            var utilisateur = DataStore.Users.FirstOrDefault(u => u.Id == id && !(u is Admin));
-            if (utilisateur == null)
+            User? user = DataStore.Users.FirstOrDefault(u => u.Id == id && !(u is Admin));
+            if (user == null)
                 return false;
 
-            DataStore.Users.Remove(utilisateur);
+            DataStore.Users.Remove(user);
             return true;
         }
 
-        private bool EmailExiste(string email, int? ignoreId = null)
+        private bool EmailExists(string email, int? ignoreId = null)
         {
             return DataStore.Users.Any(u => u.Email.Equals(email, StringComparison.OrdinalIgnoreCase)
                 && (!ignoreId.HasValue || u.Id != ignoreId.Value));

@@ -4,14 +4,14 @@ using System.Text;
 
 namespace ConnnectedProject.Models
 {
-    //jai passé la class en abstract  psk c bcp plu propr  pour ntr architecur
-    public abstract class User(string nom, string prenom, string email, string motDePasse)
+    
+    public abstract class User(string lastName, string firstName, string email, string password)
     {
         public int Id { get; set; } = Math.Abs(Guid.NewGuid().GetHashCode());
-        public string Nom { get; set; } = nom;
-        public string Prenom { get; set; } = prenom;
+        public string LastName { get; set; } = lastName;
+        public string FirstName { get; set; } = firstName;
         public string Email { get; set; } = email;
-        public string MotDePasse { get; set; } = motDePasse;
+        public string Password { get; set; } = password;
         public string Role { get; protected set; } = string.Empty;
     }
 }
