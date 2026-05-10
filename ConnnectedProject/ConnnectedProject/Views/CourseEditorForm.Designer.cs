@@ -6,8 +6,6 @@ namespace ConnnectedProject.Views
         private System.Windows.Forms.Label lblTitle;
         private System.Windows.Forms.Label lblTitre;
         private System.Windows.Forms.TextBox txtTitre;
-        private System.Windows.Forms.Label lblDescription;
-        private System.Windows.Forms.TextBox txtDescription;
         private System.Windows.Forms.Button btnSave;
 
         protected override void Dispose(bool disposing)
@@ -24,10 +22,10 @@ namespace ConnnectedProject.Views
             lblTitle = new Label();
             lblTitre = new Label();
             txtTitre = new TextBox();
-            lblDescription = new Label();
-            txtDescription = new TextBox();
             btnSave = new Button();
             checkBoxPublie = new CheckBox();
+            lblDescription = new Label();
+            txtDescription = new TextBox();
             SuspendLayout();
             // 
             // lblTitle
@@ -56,23 +54,6 @@ namespace ConnnectedProject.Views
             txtTitre.Size = new Size(530, 27);
             txtTitre.TabIndex = 2;
             // 
-            // lblDescription
-            // 
-            lblDescription.AutoSize = true;
-            lblDescription.Location = new Point(24, 141);
-            lblDescription.Name = "lblDescription";
-            lblDescription.Size = new Size(85, 20);
-            lblDescription.TabIndex = 3;
-            lblDescription.Text = "Description";
-            // 
-            // txtDescription
-            // 
-            txtDescription.Location = new Point(24, 164);
-            txtDescription.Multiline = true;
-            txtDescription.Name = "txtDescription";
-            txtDescription.Size = new Size(530, 190);
-            txtDescription.TabIndex = 4;
-            // 
             // btnSave
             // 
             btnSave.BackColor = Color.FromArgb(0, 120, 215);
@@ -96,14 +77,32 @@ namespace ConnnectedProject.Views
             checkBoxPublie.Text = "Publier";
             checkBoxPublie.UseVisualStyleBackColor = true;
             // 
+            // lblDescription
+            // 
+            lblDescription.AutoSize = true;
+            lblDescription.Location = new Point(24, 141);
+            lblDescription.Name = "lblDescription";
+            lblDescription.Size = new Size(85, 20);
+            lblDescription.TabIndex = 3;
+            lblDescription.Text = "Description";
+            // 
+            // txtDescription
+            // 
+            txtDescription.Location = new Point(24, 164);
+            txtDescription.Multiline = true;
+            txtDescription.Name = "txtDescription";
+            txtDescription.Size = new Size(530, 190);
+            txtDescription.TabIndex = 4;
+            txtDescription.TextChanged += textBox1_TextChanged; //j'ai modifié car j'ai fait une gourde en supprimant le textbox de base
+            // 
             // CourseEditorForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(584, 431);
+            Controls.Add(txtDescription);
             Controls.Add(checkBoxPublie);
             Controls.Add(btnSave);
-            Controls.Add(txtDescription);
             Controls.Add(lblDescription);
             Controls.Add(txtTitre);
             Controls.Add(lblTitre);
@@ -119,5 +118,7 @@ namespace ConnnectedProject.Views
         }
 
         private CheckBox checkBoxPublie;
+        private Label lblDescription;
+        private TextBox txtDescription;
     }
 }

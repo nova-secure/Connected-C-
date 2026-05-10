@@ -34,6 +34,8 @@ namespace ConnnectedProject.Views
             //jappel l cotrolleur pr recuprer l  liste de cour
             var listeCours = _controller.CoursQuiSontPublié();
             listBox1.Items.Clear();
+            Hide();
+  
             foreach (var c in listeCours)
             {
                 listBox1.Items.Add(c.Titre);

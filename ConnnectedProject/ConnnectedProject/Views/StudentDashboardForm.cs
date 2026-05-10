@@ -20,37 +20,60 @@ namespace ConnnectedProject.Views
             InitializeComponent();
             this.Text = "Bienvenue AKHY ! - " + _student.Prenom;
 
- 
+
             // Explication : Salut, j'ai ajouté un bouton par le code pour permettre à l'étudiant d'aller voir son bulletin, car ça manquait.
             Button btnBulletin = new Button();
             btnBulletin.Text = "Voir mon Bulletin";
             btnBulletin.Top = 150;
             btnBulletin.Left = 50;
             btnBulletin.Width = 150;
-            btnBulletin.Click += (s, e) => {
+            btnBulletin.Click += (s, e) =>
+            {
                 var f = new ReportCardForm(_student);
-                f.ShowDialog();
+                f.Show();
             };
             this.Controls.Add(btnBulletin);
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
-
+           
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            CourseCatalogForm Cours = new CourseCatalogForm();
+            ReportCardForm Cours = new ReportCardForm(_student);
             this.Hide();
             Cours.ShowDialog();
+            this.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            LoginForm checkPoints = new LoginForm();
+            CourseCatalogForm checkPoints = new CourseCatalogForm();
             this.Hide();
             checkPoints.ShowDialog();
+            this.Show();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+            
+        }
+
+        private void StudentDashboardForm_Load(object sender, EventArgs e)
+        {
+            this.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            LoginForm checkPoints = new LoginForm();
+          
+            checkPoints.ShowDialog();
+            this.Close();
         }
     }
 }

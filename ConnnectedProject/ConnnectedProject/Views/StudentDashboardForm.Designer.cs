@@ -29,15 +29,17 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            button2 = new Button();
             button1 = new Button();
             label1 = new Label();
-            button2 = new Button();
+            button3 = new Button();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
             panel1.BackColor = Color.GreenYellow;
+            panel1.Controls.Add(button3);
             panel1.Controls.Add(button2);
             panel1.Controls.Add(button1);
             panel1.Controls.Add(label1);
@@ -46,6 +48,18 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1109, 575);
             panel1.TabIndex = 0;
+            panel1.Paint += panel1_Paint;
+            // 
+            // button2
+            // 
+            button2.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button2.Location = new Point(617, 343);
+            button2.Name = "button2";
+            button2.Size = new Size(203, 70);
+            button2.TabIndex = 2;
+            button2.Text = "Voir cours";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button1
             // 
@@ -70,16 +84,16 @@
             label1.Text = "Bienvenue";
             label1.Click += label1_Click;
             // 
-            // button2
+            // button3
             // 
-            button2.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button2.Location = new Point(617, 343);
-            button2.Name = "button2";
-            button2.Size = new Size(203, 70);
-            button2.TabIndex = 2;
-            button2.Text = "Voir cours";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
+            button3.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button3.Location = new Point(414, 343);
+            button3.Name = "button3";
+            button3.Size = new Size(203, 70);
+            button3.TabIndex = 3;
+            button3.Text = "Se déconnecter";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // StudentDashboardForm
             // 
@@ -89,6 +103,7 @@
             Controls.Add(panel1);
             Name = "StudentDashboardForm";
             Text = "StudentDashboardForm";
+            Load += StudentDashboardForm_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);
@@ -100,5 +115,6 @@
         private Label label1;
         private Button button1;
         private Button button2;
+        private Button button3;
     }
 }
