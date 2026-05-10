@@ -1,10 +1,11 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace ConnnectedProject.Models
 {
-    public  class User(string nom, string prenom, string email, string motDePasse)
+    //jai passé la class en abstract  psk c bcp plu propr  pour ntr architecur
+    public abstract class User(string nom, string prenom, string email, string motDePasse)
     {
         public int Id { get; set; } = Math.Abs(Guid.NewGuid().GetHashCode());
         public string Nom { get; set; } = nom;

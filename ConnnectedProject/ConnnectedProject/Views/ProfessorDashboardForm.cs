@@ -1,4 +1,4 @@
-﻿using ConnnectedProject.Models;
+using ConnnectedProject.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -70,7 +70,8 @@ namespace ConnnectedProject.Views
 
         private void LoadCourses()
         {
-            var Courses = DataStore.courses
+            //jai remi la maguscule pour aceder  a  la variabl
+            var Courses = DataStore.Courses
                 .Where(c => c.IdProfesseur == _professor.Id)
                 .Select(c => new
                 {
@@ -99,7 +100,8 @@ namespace ConnnectedProject.Views
 
         private void BtnGradeStudent_Click(object sender, EventArgs e)
         {
-            if (!DataStore.courses.Any(c => c.IdProfesseur == _professor.Id))
+            //jai egalement corriger  l'ereur d orthographe de courses  içi
+            if (!DataStore.Courses.Any(c => c.IdProfesseur == _professor.Id))
             {
                 MessageBox.Show("Vous devez d'abord créer un cours avant de noter un étudiant.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;

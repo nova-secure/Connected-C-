@@ -18,27 +18,30 @@ namespace ConnnectedProject.Views
 
         public void BtnSave_Click(object sender, EventArgs e)
         {
-            var titre = txtTitre.Text.Trim();
-            var description = txtDescription.Text.Trim();
+            string titre = txtTitre.Text;
+            string description = txtDescription.Text;
 
-            if (string.IsNullOrWhiteSpace(titre))
+            if (titre == "")
             {
-                MessageBox.Show("Le titre du cours est obligatoire.", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Le titre du cours est obligatoire.");
                 return;
             }
 
-            var controller = new ProfessorController();
-            var course = controller.AddCourse(_professor.Id, titre, description, false);
+            // On regarde si la case est cochée
+            bool estPublie = false;
+            if (checkBoxPublie.Checked == true)
+            {
+                estPublie = true;
+            }
+
+            ProfessorController controller = new ProfessorController();
+            // On utilise la variable estPublie au lieu de false
+            Courses course = controller.AddCourse(_professor.Id, titre, description, estPublie);
 
             if (course != null)
             {
-                MessageBox.Show("Le cours a bien été créé.", "Succès", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                DialogResult = DialogResult.OK;
-                Close();
-            }
-            else
-            {
-                MessageBox.Show("Impossible de créer le cours.", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Le cours a bien été créé.");
+                this.Close();
             }
         }
     }

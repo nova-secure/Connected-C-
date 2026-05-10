@@ -1,149 +1,153 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\",
+  "WorkspaceRootPath": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\zouba\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\zouba\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\zouba\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\zouba\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\views\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\ilias\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\views\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\zouba\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\views\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\connnectedproject\\views\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\zouba\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\zouba\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\zouba\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\models\\professor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\models\\professor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\zouba\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\models\\datastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\models\\datastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\zouba\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\zouba\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\controllers\\professorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\controllers\\professorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\zouba\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\zouba\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\models\\courses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\models\\courses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\zouba\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\models\\classe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\models\\classe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\zouba\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\views\\reportcardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\reportcardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\zouba\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\views\\courseeditorform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\courseeditorform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\zouba\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\views\\reportcardform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\reportcardform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\connnectedproject\\views\\panelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\panelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\zouba\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\views\\studentdashboardform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\studentdashboardform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\zouba\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\zouba\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\models\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\models\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\connnectedproject\\views\\studentdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\studentdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\zouba\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\views\\reportcardform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\reportcardform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\connnectedproject\\views\\reportcardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\reportcardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\connnectedproject\\views\\professordashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\professordashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\connnectedproject\\views\\gradingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\gradingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\zouba\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\views\\coursecatalogform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\coursecatalogform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\connnectedproject\\views\\coursecatalogform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\coursecatalogform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\zouba\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\views\\coursecatalogform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\coursecatalogform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\zouba\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\views\\coursecatalogform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\coursecatalogform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\connnectedproject\\views\\courseeditorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\courseeditorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\zouba\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\views\\studentdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\ilias\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\views\\studentdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\studentdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\zouba\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\views\\gradingform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\ilias\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\views\\courseeditorform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\courseeditorform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\ilias\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\views\\courseeditorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\courseeditorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\connnectedproject\\views\\courseeditorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\courseeditorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\connnectedproject\\views\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\ilias\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\ilias\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\ilias\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\ilias\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\controllers\\professorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\controllers\\professorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\ilias\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\ilias\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\ilias\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\ilias\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\views\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\ilias\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\ilias\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\ilias\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\models\\professor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\models\\professor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\ilias\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\models\\datastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\models\\datastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\ilias\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\models\\courses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\models\\courses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\ilias\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\models\\classe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\models\\classe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\ilias\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\views\\reportcardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\reportcardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\ilias\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\views\\reportcardform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\reportcardform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\connnectedproject\\views\\panelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\panelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\ilias\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\views\\studentdashboardform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\studentdashboardform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\ilias\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\models\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\models\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\connnectedproject\\views\\studentdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\studentdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\ilias\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\views\\reportcardform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\reportcardform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\connnectedproject\\views\\reportcardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\reportcardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\connnectedproject\\views\\professordashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\professordashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\connnectedproject\\views\\gradingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\gradingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\ilias\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\views\\coursecatalogform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\coursecatalogform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\connnectedproject\\views\\coursecatalogform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\coursecatalogform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\ilias\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\views\\coursecatalogform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\coursecatalogform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\ilias\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\views\\coursecatalogform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\coursecatalogform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\ilias\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\views\\gradingform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\gradingform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\zouba\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\views\\loginform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\ilias\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\views\\loginform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
       "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\loginform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\zouba\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\views\\gradingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|c:\\users\\ilias\\documents\\github\\connected-c-\\connnectedproject\\connnectedproject\\views\\gradingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0895163-6873-9551-C333-57CD106109AF}|ConnnectedProject\\ConnnectedProject.csproj|solutionrelative:connnectedproject\\views\\gradingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -154,21 +158,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 327,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\User.cs",
+              "DocumentMoniker": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\User.cs",
               "RelativeDocumentMoniker": "ConnnectedProject\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\User.cs",
               "RelativeToolTip": "ConnnectedProject\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-08T13:52:08.207Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
@@ -176,71 +183,56 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "ConnnectedProject\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "ConnnectedProject\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAkwEQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T12:24:04.874Z",
-              "EditorCaption": ""
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Admin.cs",
-              "DocumentMoniker": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\Admin.cs",
-              "RelativeDocumentMoniker": "ConnnectedProject\\Models\\Admin.cs",
-              "ToolTip": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\Admin.cs",
-              "RelativeToolTip": "ConnnectedProject\\Models\\Admin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Title": "CourseEditorForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\CourseEditorForm.Designer.cs",
+              "RelativeDocumentMoniker": "ConnnectedProject\\Views\\CourseEditorForm.Designer.cs",
+              "ToolTip": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\CourseEditorForm.Designer.cs",
+              "RelativeToolTip": "ConnnectedProject\\Views\\CourseEditorForm.Designer.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAgwGIAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T12:21:10.568Z",
+              "WhenOpened": "2026-05-08T13:47:12.06Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\Student.cs",
-              "RelativeDocumentMoniker": "ConnnectedProject\\Models\\Student.cs",
-              "ToolTip": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\Student.cs",
-              "RelativeToolTip": "ConnnectedProject\\Models\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "StudentDashboardForm.cs",
+              "DocumentMoniker": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\StudentDashboardForm.cs",
+              "RelativeDocumentMoniker": "ConnnectedProject\\Views\\StudentDashboardForm.cs",
+              "ToolTip": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\StudentDashboardForm.cs",
+              "RelativeToolTip": "ConnnectedProject\\Views\\StudentDashboardForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T12:24:26.197Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoginForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\LoginForm.cs",
-              "RelativeDocumentMoniker": "ConnnectedProject\\Views\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\LoginForm.cs [Design]",
-              "RelativeToolTip": "ConnnectedProject\\Views\\LoginForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T12:28:39.79Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-04-24T11:50:11.651Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "CourseEditorForm.cs",
+              "DocumentMoniker": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\CourseEditorForm.cs",
+              "RelativeDocumentMoniker": "ConnnectedProject\\Views\\CourseEditorForm.cs",
+              "ToolTip": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\CourseEditorForm.cs",
+              "RelativeToolTip": "ConnnectedProject\\Views\\CourseEditorForm.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T11:39:41.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "LoginForm.cs",
-              "DocumentMoniker": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\LoginForm.cs",
               "RelativeDocumentMoniker": "ConnnectedProject\\Views\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\LoginForm.cs",
               "RelativeToolTip": "ConnnectedProject\\Views\\LoginForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwCEAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwB4AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-09T09:01:06.634Z",
               "EditorCaption": ""
@@ -248,22 +240,104 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "LoginForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\LoginForm.Designer.cs",
-              "RelativeDocumentMoniker": "ConnnectedProject\\Views\\LoginForm.Designer.cs",
-              "ToolTip": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\LoginForm.Designer.cs",
-              "RelativeToolTip": "ConnnectedProject\\Views\\LoginForm.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "CourseEditorForm.cs [Conception]",
+              "DocumentMoniker": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\CourseEditorForm.cs",
+              "RelativeDocumentMoniker": "ConnnectedProject\\Views\\CourseEditorForm.cs",
+              "ToolTip": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\CourseEditorForm.cs [Conception]*",
+              "RelativeToolTip": "ConnnectedProject\\Views\\CourseEditorForm.cs [Conception]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T12:24:15.391Z"
+              "WhenOpened": "2026-04-24T11:51:59.459Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 5,
+              "Title": "LoginForm.cs [Conception]",
+              "DocumentMoniker": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\LoginForm.cs",
+              "RelativeDocumentMoniker": "ConnnectedProject\\Views\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\LoginForm.cs [Conception]*",
+              "RelativeToolTip": "ConnnectedProject\\Views\\LoginForm.cs [Conception]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T12:28:39.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Program.cs",
+              "RelativeDocumentMoniker": "ConnnectedProject\\Program.cs",
+              "ToolTip": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Program.cs",
+              "RelativeToolTip": "ConnnectedProject\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T12:28:15.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "ConnnectedProject\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "ConnnectedProject\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T12:24:04.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProfessorController.cs",
+              "DocumentMoniker": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Controllers\\ProfessorController.cs",
+              "RelativeDocumentMoniker": "ConnnectedProject\\Controllers\\ProfessorController.cs",
+              "ToolTip": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Controllers\\ProfessorController.cs",
+              "RelativeToolTip": "ConnnectedProject\\Controllers\\ProfessorController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA+wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T12:20:46.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "ConnnectedProject\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "ConnnectedProject\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAEwCUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T12:20:45.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "ConnnectedProject\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "ConnnectedProject\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T12:20:45.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Courses.cs",
+              "DocumentMoniker": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\Courses.cs",
+              "RelativeDocumentMoniker": "ConnnectedProject\\Models\\Courses.cs",
+              "ToolTip": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\Courses.cs",
+              "RelativeToolTip": "ConnnectedProject\\Models\\Courses.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T13:46:26.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "Classe.cs",
-              "DocumentMoniker": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\Classe.cs",
+              "DocumentMoniker": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\Classe.cs",
               "RelativeDocumentMoniker": "ConnnectedProject\\Models\\Classe.cs",
-              "ToolTip": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\Classe.cs",
+              "ToolTip": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\Classe.cs",
               "RelativeToolTip": "ConnnectedProject\\Models\\Classe.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -272,58 +346,46 @@
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Courses.cs",
-              "DocumentMoniker": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\Courses.cs",
-              "RelativeDocumentMoniker": "ConnnectedProject\\Models\\Courses.cs",
-              "ToolTip": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\Courses.cs",
-              "RelativeToolTip": "ConnnectedProject\\Models\\Courses.cs",
+              "Title": "LoginForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\LoginForm.Designer.cs",
+              "RelativeDocumentMoniker": "ConnnectedProject\\Views\\LoginForm.Designer.cs",
+              "ToolTip": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\LoginForm.Designer.cs",
+              "RelativeToolTip": "ConnnectedProject\\Views\\LoginForm.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T13:46:26.495Z"
+              "WhenOpened": "2026-04-24T12:24:15.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "ConnnectedProject\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\Student.cs",
+              "RelativeToolTip": "ConnnectedProject\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T12:24:26.197Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "ConnnectedProject\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "ConnnectedProject\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "ConnnectedProject\\Models\\Admin.cs",
+              "ToolTip": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\Admin.cs",
+              "RelativeToolTip": "ConnnectedProject\\Models\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T12:20:45.304Z"
+              "WhenOpened": "2026-04-24T12:21:10.568Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ProfessorController.cs",
-              "DocumentMoniker": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Controllers\\ProfessorController.cs",
-              "RelativeDocumentMoniker": "ConnnectedProject\\Controllers\\ProfessorController.cs",
-              "ToolTip": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Controllers\\ProfessorController.cs",
-              "RelativeToolTip": "ConnnectedProject\\Controllers\\ProfessorController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T12:20:46.508Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "ConnnectedProject\\Controllers\\StudentController.cs",
-              "ToolTip": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "ConnnectedProject\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAEwCUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T12:20:45.9Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "DataStore.cs",
-              "DocumentMoniker": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\DataStore.cs",
+              "DocumentMoniker": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\DataStore.cs",
               "RelativeDocumentMoniker": "ConnnectedProject\\Models\\DataStore.cs",
-              "ToolTip": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\DataStore.cs",
+              "ToolTip": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\DataStore.cs",
               "RelativeToolTip": "ConnnectedProject\\Models\\DataStore.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -331,11 +393,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "Professor.cs",
-              "DocumentMoniker": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\Professor.cs",
+              "DocumentMoniker": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\Professor.cs",
               "RelativeDocumentMoniker": "ConnnectedProject\\Models\\Professor.cs",
-              "ToolTip": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\Professor.cs",
+              "ToolTip": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\Professor.cs",
               "RelativeToolTip": "ConnnectedProject\\Models\\Professor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -343,11 +405,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "Role.cs",
-              "DocumentMoniker": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\Role.cs",
+              "DocumentMoniker": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\Role.cs",
               "RelativeDocumentMoniker": "ConnnectedProject\\Models\\Role.cs",
-              "ToolTip": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\Role.cs",
+              "ToolTip": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\Role.cs",
               "RelativeToolTip": "ConnnectedProject\\Models\\Role.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -355,11 +417,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "ReportCardForm.cs",
-              "DocumentMoniker": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\ReportCardForm.cs",
+              "DocumentMoniker": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\ReportCardForm.cs",
               "RelativeDocumentMoniker": "ConnnectedProject\\Views\\ReportCardForm.cs",
-              "ToolTip": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\ReportCardForm.cs",
+              "ToolTip": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\ReportCardForm.cs",
               "RelativeToolTip": "ConnnectedProject\\Views\\ReportCardForm.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -368,11 +430,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "StudentDashboardForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\StudentDashboardForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\StudentDashboardForm.Designer.cs",
               "RelativeDocumentMoniker": "ConnnectedProject\\Views\\StudentDashboardForm.Designer.cs",
-              "ToolTip": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\StudentDashboardForm.Designer.cs",
+              "ToolTip": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\StudentDashboardForm.Designer.cs",
               "RelativeToolTip": "ConnnectedProject\\Views\\StudentDashboardForm.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -380,11 +442,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "CourseCatalogForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\CourseCatalogForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\CourseCatalogForm.Designer.cs",
               "RelativeDocumentMoniker": "ConnnectedProject\\Views\\CourseCatalogForm.Designer.cs",
-              "ToolTip": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\CourseCatalogForm.Designer.cs",
+              "ToolTip": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\CourseCatalogForm.Designer.cs",
               "RelativeToolTip": "ConnnectedProject\\Views\\CourseCatalogForm.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -392,45 +454,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CourseEditorForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\CourseEditorForm.Designer.cs",
-              "RelativeDocumentMoniker": "ConnnectedProject\\Views\\CourseEditorForm.Designer.cs",
-              "ToolTip": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\CourseEditorForm.Designer.cs",
-              "RelativeToolTip": "ConnnectedProject\\Views\\CourseEditorForm.Designer.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T13:47:12.06Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "ReportCardForm.resx",
-              "DocumentMoniker": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\ReportCardForm.resx",
+              "DocumentMoniker": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\ReportCardForm.resx",
               "RelativeDocumentMoniker": "ConnnectedProject\\Views\\ReportCardForm.resx",
-              "ToolTip": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\ReportCardForm.resx",
+              "ToolTip": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\ReportCardForm.resx",
               "RelativeToolTip": "ConnnectedProject\\Views\\ReportCardForm.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
               "WhenOpened": "2026-05-08T13:59:41.261Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "PanelController.cs [Conception]",
-              "DocumentMoniker": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\PanelController.cs",
+              "DocumentMoniker": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\PanelController.cs",
               "RelativeDocumentMoniker": "ConnnectedProject\\Views\\PanelController.cs",
               "ToolTip": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\PanelController.cs [Conception]",
-              "RelativeToolTip": "ConnnectedProject\\Views\\PanelController.cs [Conception]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\PanelController.cs [Conception]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-09T18:11:52.968Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "ReportCardForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\ReportCardForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\ReportCardForm.Designer.cs",
               "RelativeDocumentMoniker": "ConnnectedProject\\Views\\ReportCardForm.Designer.cs",
-              "ToolTip": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\ReportCardForm.Designer.cs",
+              "ToolTip": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\ReportCardForm.Designer.cs",
               "RelativeToolTip": "ConnnectedProject\\Views\\ReportCardForm.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -438,22 +488,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "CourseCatalogForm.resx",
-              "DocumentMoniker": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\CourseCatalogForm.resx",
+              "DocumentMoniker": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\CourseCatalogForm.resx",
               "RelativeDocumentMoniker": "ConnnectedProject\\Views\\CourseCatalogForm.resx",
-              "ToolTip": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\CourseCatalogForm.resx",
+              "ToolTip": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\CourseCatalogForm.resx",
               "RelativeToolTip": "ConnnectedProject\\Views\\CourseCatalogForm.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
               "WhenOpened": "2026-05-08T14:00:00.006Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "Grade.cs",
-              "DocumentMoniker": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\Grade.cs",
+              "DocumentMoniker": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\Grade.cs",
               "RelativeDocumentMoniker": "ConnnectedProject\\Models\\Grade.cs",
-              "ToolTip": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\Grade.cs",
+              "ToolTip": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Models\\Grade.cs",
               "RelativeToolTip": "ConnnectedProject\\Models\\Grade.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -461,34 +511,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Program.cs",
-              "RelativeDocumentMoniker": "ConnnectedProject\\Program.cs",
-              "ToolTip": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Program.cs",
-              "RelativeToolTip": "ConnnectedProject\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T12:28:15.882Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "LoginForm.resx",
-              "DocumentMoniker": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\LoginForm.resx",
+              "DocumentMoniker": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\LoginForm.resx",
               "RelativeDocumentMoniker": "ConnnectedProject\\Views\\LoginForm.resx",
-              "ToolTip": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\LoginForm.resx",
+              "ToolTip": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\LoginForm.resx",
               "RelativeToolTip": "ConnnectedProject\\Views\\LoginForm.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
               "WhenOpened": "2026-04-24T12:28:11.87Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "GradingForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\GradingForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\GradingForm.Designer.cs",
               "RelativeDocumentMoniker": "ConnnectedProject\\Views\\GradingForm.Designer.cs",
-              "ToolTip": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\GradingForm.Designer.cs",
+              "ToolTip": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\GradingForm.Designer.cs",
               "RelativeToolTip": "ConnnectedProject\\Views\\GradingForm.Designer.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAYwCoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -496,9 +534,9 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "ProfessorDashboardForm.cs [Conception]",
-              "DocumentMoniker": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\ProfessorDashboardForm.cs",
+              "DocumentMoniker": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\ProfessorDashboardForm.cs",
               "RelativeDocumentMoniker": "ConnnectedProject\\Views\\ProfessorDashboardForm.cs",
               "ToolTip": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\ProfessorDashboardForm.cs [Conception]",
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\ProfessorDashboardForm.cs [Conception]",
@@ -507,11 +545,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "CourseCatalogForm.cs",
-              "DocumentMoniker": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\CourseCatalogForm.cs",
+              "DocumentMoniker": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\CourseCatalogForm.cs",
               "RelativeDocumentMoniker": "ConnnectedProject\\Views\\CourseCatalogForm.cs",
-              "ToolTip": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\CourseCatalogForm.cs",
+              "ToolTip": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\CourseCatalogForm.cs",
               "RelativeToolTip": "ConnnectedProject\\Views\\CourseCatalogForm.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAwwBMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -520,22 +558,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "CourseEditorForm.cs [Conception]",
-              "DocumentMoniker": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\CourseEditorForm.cs",
-              "RelativeDocumentMoniker": "ConnnectedProject\\Views\\CourseEditorForm.cs",
-              "ToolTip": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\CourseEditorForm.cs [Conception]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\CourseEditorForm.cs [Conception]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T11:51:59.459Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "GradingForm.cs",
-              "DocumentMoniker": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\GradingForm.cs",
+              "DocumentMoniker": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\GradingForm.cs",
               "RelativeDocumentMoniker": "ConnnectedProject\\Views\\GradingForm.cs",
-              "ToolTip": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\GradingForm.cs",
+              "ToolTip": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\GradingForm.cs",
               "RelativeToolTip": "ConnnectedProject\\Views\\GradingForm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -544,9 +571,9 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "GradingForm.cs [Conception]",
-              "DocumentMoniker": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\GradingForm.cs",
+              "DocumentMoniker": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\GradingForm.cs",
               "RelativeDocumentMoniker": "ConnnectedProject\\Views\\GradingForm.cs",
               "ToolTip": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\GradingForm.cs [Conception]",
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\GradingForm.cs [Conception]",
@@ -555,22 +582,9 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "StudentDashboardForm.cs",
-              "DocumentMoniker": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\StudentDashboardForm.cs",
-              "RelativeDocumentMoniker": "ConnnectedProject\\Views\\StudentDashboardForm.cs",
-              "ToolTip": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\StudentDashboardForm.cs",
-              "RelativeToolTip": "ConnnectedProject\\Views\\StudentDashboardForm.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwB0AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T11:50:11.651Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "StudentDashboardForm.cs [Conception]",
-              "DocumentMoniker": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\StudentDashboardForm.cs",
+              "DocumentMoniker": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\StudentDashboardForm.cs",
               "RelativeDocumentMoniker": "ConnnectedProject\\Views\\StudentDashboardForm.cs",
               "ToolTip": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\StudentDashboardForm.cs [Conception]",
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\StudentDashboardForm.cs [Conception]",
@@ -579,9 +593,9 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "ReportCardForm.cs [Conception]",
-              "DocumentMoniker": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\ReportCardForm.cs",
+              "DocumentMoniker": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\ReportCardForm.cs",
               "RelativeDocumentMoniker": "ConnnectedProject\\Views\\ReportCardForm.cs",
               "ToolTip": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\ReportCardForm.cs [Conception]",
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\ReportCardForm.cs [Conception]",
@@ -590,24 +604,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "CourseCatalogForm.cs [Conception]",
-              "DocumentMoniker": "C:\\Users\\zouba\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\CourseCatalogForm.cs",
+              "DocumentMoniker": "C:\\Users\\ilias\\Documents\\GitHub\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\CourseCatalogForm.cs",
               "RelativeDocumentMoniker": "ConnnectedProject\\Views\\CourseCatalogForm.cs",
               "ToolTip": "C:\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\CourseCatalogForm.cs [Conception]",
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Cours 2025-2026\\Cours Q2\\Programmation Laboratoire Q2\\Labo projet 10 Mai\\Connected-C-\\ConnnectedProject\\ConnnectedProject\\Views\\CourseCatalogForm.cs [Conception]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-17T11:58:21.091Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 73,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             }
           ]
         }

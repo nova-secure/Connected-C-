@@ -20,7 +20,8 @@ namespace ConnnectedProject.Controllers
                 EstPublie = estPublie
             };
 
-            DataStore.courses.Add(course);
+            //jai corrigé le c de  course en  C majuscul
+            DataStore.Courses.Add(course);
             return course;
         }
 
@@ -30,7 +31,7 @@ namespace ConnnectedProject.Controllers
                 return null;
 
             var student = DataStore.Users.OfType<Student>().FirstOrDefault(s => s.Id == idEtudiant); //On v�rifie que l'�tudiant existe et est bien un �tudiant
-            var course = DataStore.courses.FirstOrDefault(c => c.Id == idCours); // pareil pour le cours
+            var course = DataStore.Courses.FirstOrDefault(c => c.Id == idCours); // pareil pour le cours
 
             if (student == null || course == null)
                 return null;

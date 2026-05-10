@@ -15,7 +15,8 @@ namespace ConnnectedProject.Controllers
         {
             List<Courses> coursPubliés = new List<Courses>();
 
-            foreach (Courses e in DataStore.courses)
+            //j'ai corrigé la cas pour  ciblé  la bonne variabl Courses
+            foreach (Courses e in DataStore.Courses)
             {
                 if (e.EstPublie == true)
                 {

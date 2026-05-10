@@ -6,16 +6,16 @@ using System.Text;
 
 namespace ConnnectedProject.Models
 {
-    public  class DataStore
+    public static class DataStore
     {
 
         public static List<User> Users = new List<User>();
-        public static List<Courses> courses = new List<Courses>();
+        public static List<Courses> Courses = new List<Courses>();
         public static List<Grade> Grades = new List<Grade>();
         public static int NextCourseId = 1;
         public static int NextGradeId = 1;
 
-        public  void DataInitialize()
+        public static void InitialiserDonnees()
         {
             // Default Admin
             Users.Add(new Admin("Boss", "Le", "admin@test.com", "1234"));

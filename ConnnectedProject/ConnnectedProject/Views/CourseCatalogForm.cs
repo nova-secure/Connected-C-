@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,6 +11,8 @@ namespace ConnnectedProject.Views
 {
     public partial class CourseCatalogForm : Form
     {
+        private ConnnectedProject.Controllers.StudentController _controller = new ConnnectedProject.Controllers.StudentController();
+
         public CourseCatalogForm()
         {
             InitializeComponent();
@@ -29,7 +31,13 @@ namespace ConnnectedProject.Views
 
         private void CourseCatalogForm_Load(object sender, EventArgs e)
         {
-
+            //jappel l cotrolleur pr recuprer l  liste de cour
+            var listeCours = _controller.CoursQuiSontPublié();
+            listBox1.Items.Clear();
+            foreach (var c in listeCours)
+            {
+                listBox1.Items.Add(c.Titre);
+            }
         }
 
         private void labelCours_Click(object sender, EventArgs e)

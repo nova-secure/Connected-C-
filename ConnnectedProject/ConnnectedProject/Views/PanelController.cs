@@ -28,6 +28,8 @@ namespace ConnnectedProject.Views
         private Label lblMdp = null!;
         private Label lblRole = null!;
         private Label lblClasse = null!;
+        //j'ai ajuter 1 labl pr aiché le  nbr detudiant
+        private Label lblStats = null!;
         private int selectedUserId = -1;
 
         public PanelController()
@@ -58,6 +60,9 @@ namespace ConnnectedProject.Views
             lblRole = new Label();
             lblClasse = new Label();
 
+            //jinitializ le label pr  montré l  nbr d'eleves
+            lblStats = new Label();
+
             SuspendLayout();
             // 
             // lblHeader
@@ -68,6 +73,15 @@ namespace ConnnectedProject.Views
             lblHeader.Name = "lblHeader";
             lblHeader.Size = new Size(218, 37);
             lblHeader.Text = "Panneau Admin";
+            // 
+            // lblStats
+            // 
+            lblStats.AutoSize = true;
+            lblStats.Font = new Font("Segoe UI", 12F, FontStyle.Italic, GraphicsUnit.Point);
+            lblStats.Location = new Point(300, 25);
+            lblStats.Name = "lblStats";
+            lblStats.Size = new Size(200, 25);
+            lblStats.Text = "Statistiques chargement...";
             // 
             // dgvUsers
             // 
@@ -218,6 +232,8 @@ namespace ConnnectedProject.Views
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1040, 540);
             Controls.Add(lblHeader);
+            //j'ajout l  labl a la fenetr
+            Controls.Add(lblStats);
             Controls.Add(dgvUsers);
             Controls.Add(btnActualiser);
             Controls.Add(btnSupprimerUtilisateur);
@@ -258,6 +274,10 @@ namespace ConnnectedProject.Views
 
             dgvUsers.DataSource = utilisateurs;
             PopulateClasseListe();
+
+            //je mis a  jour le  texte avc le nbr actuel d etudiant
+            int nbEtudiant = adminController.CompterEtudiants();
+            lblStats.Text = "Nombre total d'étudiants : " + nbEtudiant;
         }
 
         private void BtnActualiser_Click(object? sender, EventArgs e)

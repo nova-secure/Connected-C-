@@ -33,11 +33,17 @@ namespace ConnnectedProject.Views
                 }
                 else if (userConnecte.Role == "Professor" || userConnecte.Role == "Professeur")
                 {
-                    MessageBox.Show("Ouverture du Dashboard de Lorenzo (Prof)");
+                    ProfessorDashboardForm profDashboard = new ProfessorDashboardForm((Professor)userConnecte);
+                    profDashboard.FormClosed += (s, args) => this.Show();
+                    profDashboard.Show();
+                    this.Hide();
                 }
                 else if (userConnecte.Role == "Student" || userConnecte.Role == "Etudiant")
                 {
-                    MessageBox.Show("Ouverture du Dashboard de Thibaut (Étudiant)");
+                    Student etu = userConnecte as Student;
+                    StudentDashboardForm f = new StudentDashboardForm(etu);
+                    f.Show();
+                    this.Hide();
                 }
             }
             else

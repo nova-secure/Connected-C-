@@ -17,6 +17,12 @@ namespace ConnnectedProject.Controllers
             return DataStore.Users.OfType<Student>().ToList();
         }
 
+        //jai  ajuté ct methode psk l  mankait pour lé stat
+        public int CompterEtudiants()
+        {
+            return DataStore.Users.OfType<Student>().Count();
+        }
+
         public List<User> AfficherTousLesUtilisateurs()
         {
             return DataStore.Users.ToList();
