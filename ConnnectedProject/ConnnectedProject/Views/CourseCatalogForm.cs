@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace ConnnectedProject.Views
 {
-    public partial class CourseCatalogForm : Form
+    public partial class  CourseCatalogForm : Form
     {
         private ConnnectedProject.Controllers.StudentController _controller = new ConnnectedProject.Controllers.StudentController();
 
@@ -35,7 +35,6 @@ namespace ConnnectedProject.Views
             
             List<Courses> listeCours = _controller.CoursQuiSontPublié();
             listBox1.Items.Clear();
-            Hide();
   
             foreach (Courses c in listeCours)
             {
