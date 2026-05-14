@@ -18,9 +18,9 @@ namespace ConnnectedProject.Controllers
             
             foreach (Courses e in DataStore.Courses)
             {
-                if (e.IsPublished == true)
+                if (e.IsPublished == true) //Si je coche "Publier"
                 {
-                    coursPubliés.Add(e);
+                    coursPubliés.Add(e); //Le cours est ajouté
                 }
             }
             return coursPubliés;
@@ -28,7 +28,7 @@ namespace ConnnectedProject.Controllers
 
         public double Bulletin(int IdStudent)
         {
-            System.Collections.Generic.List<Grade> notesEtudiant = DataStore.Grades.Where(g => g.StudentId == IdStudent).ToList();
+            List<Grade> notesEtudiant = DataStore.Grades.Where(g => g.StudentId == IdStudent).ToList();
             if (notesEtudiant.Count == 0)
             {
                 return 0;
@@ -40,8 +40,7 @@ namespace ConnnectedProject.Controllers
 
         public List<GradeDetail> GetDetailedGrades(int studentId)
         {
-            return DataStore.Grades.Where(g => g.StudentId == studentId)
-                .Join(DataStore.Courses, grade => grade.CourseId, cours => cours.Id, (grade, cours) => new GradeDetail { Matière = cours.Title, Score = grade.Score }).ToList();
+            return DataStore.Grades.Where(g => g.StudentId == studentId).Join(DataStore.Courses, grade => grade.CourseId, cours => cours.Id, (grade, cours) => new GradeDetail { Matière = cours.Title, Score = grade.Score }).ToList();
         }
     }
 

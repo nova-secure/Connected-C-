@@ -19,20 +19,6 @@ namespace ConnnectedProject.Views
             _student = student;
             InitializeComponent();
             this.Text = "Bienvenue AKHY ! - " + _student.FirstName;
-
-
-            
-            Button btnBulletin = new Button();
-            btnBulletin.Text = "Voir mon Bulletin";
-            btnBulletin.Top = 150;
-            btnBulletin.Left = 50;
-            btnBulletin.Width = 150;
-            btnBulletin.Click += (s, e) =>
-            {
-                ReportCardForm f = new ReportCardForm(_student);
-                f.Show();
-            };
-            this.Controls.Add(btnBulletin);
         }
 
         private void label1_Click(object sender, EventArgs e)

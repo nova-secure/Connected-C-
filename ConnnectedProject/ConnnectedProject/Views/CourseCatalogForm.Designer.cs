@@ -22,29 +22,29 @@
 
         #region Windows Form Designer generated code
 
-        
-        
-        
-        
+
+
+
+
         private void InitializeComponent()
         {
             listBox1 = new ListBox();
             label2 = new Label();
             labelCours = new Label();
             SuspendLayout();
-            
-            
-            
+            // 
+            // listBox1
+            // 
             listBox1.FormattingEnabled = true;
-            listBox1.Items.AddRange(new object[] { "Anglais", "Linux", "Math", "Electrotechnique", "Electronique", "Algorithmique", "IVS", "Philosophie", "Programmation", "Logique Binaire", "Thoérie Programmation", "Microsystème" });
+            listBox1.Items.AddRange(new object[] { " \t\t\t\t" });
             listBox1.Location = new Point(12, 79);
             listBox1.Name = "listBox1";
             listBox1.Size = new Size(271, 304);
             listBox1.TabIndex = 0;
             listBox1.SelectedIndexChanged += listBox1_SelectedIndexChanged;
-            
-            
-            
+            // 
+            // label2
+            // 
             label2.AutoSize = true;
             label2.Location = new Point(339, 79);
             label2.Name = "label2";
@@ -52,9 +52,9 @@
             label2.TabIndex = 2;
             label2.Text = "Description :";
             label2.Click += label2_Click;
-            
-            
-            
+            // 
+            // labelCours
+            // 
             labelCours.AutoSize = true;
             labelCours.Location = new Point(339, 125);
             labelCours.Name = "labelCours";
@@ -62,9 +62,9 @@
             labelCours.TabIndex = 3;
             labelCours.Tag = "";
             labelCours.Click += labelCours_Click;
-            
-            
-            
+            // 
+            // CourseCatalogForm
+            // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
